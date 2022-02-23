@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Joel Dario Muñoz</title>
+    <title>Joel | Programador</title>
     <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Joel Dario Muñoz</h1>
-        <nav>
+    <header class="navegacion">
+        <h1 class="titulo-principal">Joel Dario Muñoz</h1><nav>
             <ul>
                 <li>Sobre mi</li>
                 <li>Skills</li>
@@ -22,24 +22,25 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <section>
-            <h2>Hola, soy <b>Joel Dario Muñoz</b>, desarrollador web</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis veniam praesentium perspiciatis libero, aspernatur tenetur sunt dolor amet vel sint! Tempora ipsum minima, placeat eaque corrupti explicabo molestiae ea obcaecati.</p>
-            <ul>
-                <li>GitHub</li>
-                <li>LinkeIn</li>
-                <li>CV</li>
-            </ul>
-            <img src="images/favicon.jpg" alt="rostro en primer plano">
+    <main class="principal">
+        <section class="presentacion">
+            <div class="presentacion-texto">
+                <h2><b>Joel Dario Muñoz</b>, desarrollador web</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis veniam praesentium perspiciatis libero, aspernatur tenetur sunt dolor amet vel sint! Tempora ipsum minima, placeat eaque corrupti explicabo molestiae ea obcaecati.</p>
+                <ul>
+                    <li>GitHub↗</li>
+                    <li>LinkeIn↗</li>
+                    <li>CV↗</li>
+                </ul>
+            </div><img src="images/favicon.jpg" alt="rostro en primer plano">
+            <div class="sobre-mi">
+                <h3>Sobre mi</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sunt odit dolor. Ipsam illo aliquid, iure autem exercitationem nemo, repudiandae earum veritatis qui magnam esse hic velit. Veniam, harum ut!</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis assumenda nam, autem odio molestiae dignissimos quibusdam! Nihil fugit at possimus recusandae cupiditate cum ipsam delectus repudiandae, facilis velit minima. Rerum!</p>
+            </div>
         </section>
-        <section>
-            <h3>Sobre mi</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sunt odit dolor. Ipsam illo aliquid, iure autem exercitationem nemo, repudiandae earum veritatis qui magnam esse hic velit. Veniam, harum ut!</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis assumenda nam, autem odio molestiae dignissimos quibusdam! Nihil fugit at possimus recusandae cupiditate cum ipsam delectus repudiandae, facilis velit minima. Rerum!</p>
-        </section>
-        <section>
-            <h3>Skills</h3>
+        <section class="skills">
+            <h3 class="titulo-seccion">Skills</h3>
             <ul>
                 <li>
                     <img src="images/iconos/html5Icono.png" alt="logo HTML5">
@@ -50,16 +51,16 @@
                     <h4>CSS(Tailwind)</h4>
                 </li>
                 <li>
+                    <img src="images/iconos/JSIcono.png" alt="logo JS">
+                    <h4>JavaScript</h4>
+                </li>
+                <li>
                     <img src="images/iconos/phpIcono.png" alt="logo PHP">
                     <h4>PHP</h4>
                 </li>
                 <li>
                     <img src="images/iconos/mysqlIcono.png" alt="logo mysql">
                     <h4>My/SQL</h4>
-                </li>
-                <li>
-                    <img src="images/iconos/JSIcono.png" alt="logo JS">
-                    <h4>JavaScript</h4>
                 </li>
                 <li>
                     <img src="images/iconos/githubIcono.png" alt="logo GitHub">
@@ -71,8 +72,8 @@
                 </li>
             </ul>
         </section>
-        <section>
-            <h3>Hobbies</h3>
+        <section class="hobbies">
+            <h3 class="titulo-seccion">Hobbies</h3>
             <ul>
                 <li>
                     <img src="images/iconos/guitarplayer.svg" alt="tocar guitarra">
@@ -96,8 +97,8 @@
                 </li>
             </ul>
         </section>
-        <section>
-            <h3>Formación académica</h3>
+        <section class="formacion">
+            <h3 class="titulo-seccion">Formación académica</h3>
             <ul>
                 <li>Alura</li>
                 <li>CSS3(Tailwind)</li>
@@ -106,15 +107,15 @@
                 <li>Java</li>
             </ul>
         </section>
-        <section>
-            <h3>Experiencia profesional</h3>
+        <section class="experiencia">
+            <h3 class="titulo-seccion">Experiencia profesional</h3>
             <ul>
                 <li>Código secreto</li>
                 <li>Juego del Ahorcado</li>
             </ul>
         </section>
-        <section>
-            <h3>Contacto</h3>
+        <section class="contacto">
+            <h3 class="titulo-seccion">Contacto</h3>
             <p>Para contactarme llená el siguiente formulario</p>
             <form>
                 <label for="nombre">Nombre</label>
@@ -129,7 +130,7 @@
             </form>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <p>&#169 Creado por Joel Dario Muñoz <time>2022</time></p>
     </footer>
 </body>
