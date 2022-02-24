@@ -1,3 +1,8 @@
+*{
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Gideon Roman';
+}
+
 .navegacion, .principal, .footer{
     width: 940px;
     margin: 0 auto;
@@ -5,70 +10,65 @@
 
 /*-------------------------------------------------------------------------------------------------*/
 
-.navegacion{
+.navegacion, .sobre-mi, .hobbies, .experiencia, footer{
     background-color: #888888;
 }
 
-.titulo-principal{
-    display: inline-block;
-    width: 40%
+.presentacion, .skills, .formacion, .contacto{
+    background-color: #606060;
 }
 
-.navegacion nav{
-    display: inline-block;
-    width: 60%;
-    text-align: right;
+.titulo-seccion{
+    background-color: darkgoldenrod;
 }
 
-.navegacion li{
+.titulo-seccion, .experiencia, .footer, .skills ul, .hobbies ul{
+    text-align: center;
+}
+
+.navegacion li, .presentacion li, .experiencia li{
     display: inline;
+}
+
+.titulo-principal, .navegacion nav, .presentacion img, .skills li, .hobbies li, .formacion li{
+    display: inline-block;
 }
 
 /*-------------------------------------------------------------------------------------------------*/
 
-.presentacion{
-    background-color: #606060;
-
+.titulo-principal{
+    width: 40%
 }
 
+.navegacion nav{
+    width: 60%;
+    text-align: right;
+}
+
+/*-------------------------------------------------------------------------------------------------*/
+
 .presentacion-texto{
-    top: 0px;
-    display: inline-block;
+    float: left;
     width: 70%;
+}
+
+.presentacion-texto-interior{
+    margin-top: 100px;
 }
 
 .presentacion ul{
     text-align: right;
 }
 
-.presentacion li{
-    display: inline;
-}
-
 .presentacion img{
-    display: inline-block;
     width: 30%;
     border-radius: 100%;
 }
 
-.sobre-mi{
-    background-color: #888888;
-}
 
 /*-------------------------------------------------------------------------------------------------*/
-
-.titulo-seccion{
-    text-align: center;
-}
-
-/*-------------------------------------------------------------------------------------------------*/
-
-.skills{
-    background-color: #606060;
-}
 
 .skills li{
-    display: inline-block;
     text-align: left;
     width: 100px;
     border: 1px solid #ffffff;
@@ -81,20 +81,7 @@
 
 /*-------------------------------------------------------------------------------------------------*/
 
-.skills ul, .hobbies ul{
-    text-align: center;
-}
-
-
-
-/*-------------------------------------------------------------------------------------------------*/
-
-.hobbies{
-    background-color: #888888;
-}
-
 .hobbies li{
-    display: inline-block;
     text-align: left;
     width: (200px/5);
     border: 1px solid #ffffff;
@@ -107,23 +94,25 @@
 /*-------------------------------------------------------------------------------------------------*/
 
 .formacion{
-    background-color: #606060;
+    text-align: center;
+}
+
+.formacion li{
+    width: 30%;
 }
 
 /*-------------------------------------------------------------------------------------------------*/
 
-.experiencia{
-    background-color: #888888;
+.experiencia li img{
+    width: 30%;
 }
 
 /*-------------------------------------------------------------------------------------------------*/
 
-.contacto{
-    background-color: #606060;
+form label, textarea{
+    display: block;
 }
 
 /*-------------------------------------------------------------------------------------------------*/
 
-footer{
-    background-color: #888888;
-}
+/*FOOTER*/

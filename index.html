@@ -8,6 +8,8 @@
     <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Montserrat:wght@300&,wght@1,200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Gideon+Roman&family=Montserrat:wght@300&,wght@1,200&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="navegacion">
@@ -24,15 +26,19 @@
     </header>
     <main class="principal">
         <section class="presentacion">
-            <div class="presentacion-texto">
-                <h2><b>Joel Dario Muñoz</b>, desarrollador web</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis veniam praesentium perspiciatis libero, aspernatur tenetur sunt dolor amet vel sint! Tempora ipsum minima, placeat eaque corrupti explicabo molestiae ea obcaecati.</p>
-                <ul>
-                    <li>GitHub↗</li>
-                    <li>LinkeIn↗</li>
-                    <li>CV↗</li>
-                </ul>
-            </div><img src="images/favicon.jpg" alt="rostro en primer plano">
+            <div>
+                <div class="presentacion-texto">
+                    <div class="presentacion-texto-interior">
+                        <h2><b>Joel Dario Muñoz</b>, desarrollador web</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis veniam praesentium perspiciatis libero, aspernatur tenetur sunt dolor amet vel sint! Tempora ipsum minima, placeat eaque corrupti explicabo molestiae ea obcaecati.</p>
+                        <ul>
+                            <li>GitHub↗</li>
+                            <li>LinkeIn↗</li>
+                            <li>CV↗</li>
+                        </ul>
+                    </div>
+                </div><img src="images/favicon.jpg" alt="rostro en primer plano">
+            </div>
             <div class="sobre-mi">
                 <h3>Sobre mi</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sunt odit dolor. Ipsam illo aliquid, iure autem exercitationem nemo, repudiandae earum veritatis qui magnam esse hic velit. Veniam, harum ut!</p>
@@ -48,7 +54,7 @@
                 </li>
                 <li>
                     <img src="images/iconos/css3Icono.png" alt="logo CSS3">
-                    <h4>CSS(Tailwind)</h4>
+                    <h4>CSS</h4>
                 </li>
                 <li>
                     <img src="images/iconos/JSIcono.png" alt="logo JS">
@@ -98,25 +104,68 @@
             </ul>
         </section>
         <section class="formacion">
-            <h3 class="titulo-seccion">Formación académica</h3>
+            <h3 class="titulo-seccion">Formación IT</h3>
             <ul>
-                <li>Alura</li>
-                <li>CSS3(Tailwind)</li>
-                <li>HTML5</li>
-                <li>PHP/MySQL</li>
-                <li>Java</li>
+                <div class="fila-1">
+                    <li>
+                        <img src="images/iconos/alura.jpg" alt="logo alura">
+                        <h4>Alura</h4>
+                        <p>Programador Web Full Stack</p>
+                        <p>ONE - Oracle Next Eduducation</p>
+                    </li>
+                    <li>
+                        <img src="images/iconos/codersFree.jpg" alt="logo coders free">
+                        <h4>Coders Free</h4>
+                        <p>Tailwind CSS3</p>
+                        <p>Autodidacta</p>
+                    </li>
+                    <li>
+                        <img src="images/iconos/dorianDesings.jpg" alt="logo dorian">
+                        <h4>Dorian Desings</h4>
+                        <p>HTML5</p>
+                        <p>Autodidacta</p>
+                    </li>
+                </div>
+                <div class="fila-2">
+                    <li>
+                        <img src="images/iconos/pildorasInformaticas.jpg" alt="logo pildoras informaticas">
+                        <h4>Pildoras Informáticas</h4>
+                        <p>PHP/MySQL</p>
+                        <p>Autodidacta</p>
+                    </li>
+                    <li>
+                        <img src="images/iconos/wikipediaErnesto.jpg" alt="logo wikipedia de Ernesto">
+                        <h4>Wikipedia de Ernesto</h4>
+                        <p>Java inicial</p>
+                        <p>Autodidacta</p>
+                    </li>
+                    <li>
+                        <img src="images/iconos/freeCodeCamp.jpg" alt="logo free code camp">
+                        <h4>Free Code Camp</h4>
+                        <p>Java Script inicial</p>
+                        <p>Autodidacta</p>
+                    </li>
+                </div>
             </ul>
         </section>
         <section class="experiencia">
             <h3 class="titulo-seccion">Experiencia profesional</h3>
             <ul>
-                <li>Código secreto</li>
-                <li>Juego del Ahorcado</li>
+                <li>
+                    <a href="https://jdario9912.github.io/Juego-del-ahoracado-Alura/" target="_blank">
+                        <img src="images/ahorcado.png" alt="juego ahorcado">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://jdario9912.github.io/Primer-challenge-Alura-Latam/" target="_blanck">
+                        <img src="images/codigoSecreto.png" alt="juego codigo secreto">
+                    </a>
+                </li>
             </ul>
         </section>
         <section class="contacto">
             <h3 class="titulo-seccion">Contacto</h3>
-            <p>Para contactarme llená el siguiente formulario</p>
+            <p>Llená el formulario, te respondo en breve</p>
             <form>
                 <label for="nombre">Nombre</label>
                 <input type="text" id="nombre">
