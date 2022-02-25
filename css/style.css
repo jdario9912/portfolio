@@ -23,7 +23,8 @@ body{
 }
 
 .titulo-seccion{
-    background: linear-gradient(90deg, #04030cf2, #ffffff);
+    /* background: linear-gradient(90deg, #04030cf2, #ffffff); */
+    background: #f4ed41;
 }
 
 .titulo-seccion, .experiencia, .footer, .skills ul, .hobbies ul{
@@ -86,6 +87,7 @@ a{
 /*-------------------------------------------------------------------------------------------------*/
 
 .presentacion{
+    background-color: #04030cd3;
     padding: 30px 10px 40px 10px;
 }
 
@@ -104,9 +106,12 @@ a{
 }
 
 .nombre{
+    display: inline-block;
     font-family: 'Gideon Roman';
     font-size: 60px;
     color: #f4ed41;
+    /* background: linear-gradient(90grad,blueviolet, green, orange); */
+    /* background-clip: text; */
 }
 
 .presentacion-texto-interior li{
@@ -136,12 +141,12 @@ a{
 
 .sobre-mi{
     margin-top: 20px;
-    font-style: italic;
+    /* font-style: italic; */
     font-size: 15px;
 }
 
 .sobre-mi h3{
-    margin-left: 18px;
+    /* margin-left: 18px; */
     margin-bottom: 10px;
     font-size: 20px;
 }
