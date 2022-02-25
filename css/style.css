@@ -1,6 +1,10 @@
 *{
     font-family: 'Prompt', sans-serif;
-    font-family: 'Gideon Roman';
+    color: #cac7d7;
+}
+
+body{
+    background-color: #04030cf2;
 }
 
 .navegacion, .principal, .footer{
@@ -10,16 +14,16 @@
 
 /*-------------------------------------------------------------------------------------------------*/
 
-.navegacion, .sobre-mi, .hobbies, .experiencia, footer{
+.hobbies, .experiencia, footer{
     background-color: #888888;
 }
 
-.presentacion, .skills, .formacion, .contacto{
+.skills, .formacion, .contacto{
     background-color: #606060;
 }
 
 .titulo-seccion{
-    background-color: darkgoldenrod;
+    background: linear-gradient(90deg, #04030cf2, #ffffff);
 }
 
 .titulo-seccion, .experiencia, .footer, .skills ul, .hobbies ul{
@@ -34,10 +38,44 @@
     display: inline-block;
 }
 
+.titulo-seccion{
+    font-size: 35px;
+}
+
+.titulo-seccion{
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #cac7d7;
+}
+
 /*-------------------------------------------------------------------------------------------------*/
+
+.navegacion{
+    padding: 10px;
+    background: #383140;
+}
+
+.navegacion li{
+    margin: 10px;
+}
+
+.navegacion a:hover{
+    color: #f4ed417a;
+}
+
+.navegacion a:active{
+    color: #f4ed41;
+}
 
 .titulo-principal{
     width: 40%
+}
+
+.titulo-principal b{
+    color: #f4ed417a;
 }
 
 .navegacion nav{
@@ -47,22 +85,69 @@
 
 /*-------------------------------------------------------------------------------------------------*/
 
+.presentacion{
+    padding: 30px 10px 40px 10px;
+}
+
 .presentacion-texto{
     float: left;
     width: 70%;
 }
 
+
 .presentacion-texto-interior{
     margin-top: 100px;
 }
 
+.presentacion-texto-interior h2{
+    font-size: 20px;
+}
+
+.nombre{
+    font-family: 'Gideon Roman';
+    font-size: 60px;
+    color: #f4ed41;
+}
+
+.presentacion-texto-interior li{
+    margin: 0 20px 0 0;
+}
+
 .presentacion ul{
+    margin-top: 15px;
     text-align: right;
+}
+
+.presentacion a{
+    color: #f4ed417a;
+    border-right: 1px solid #f4ed417a;
+    padding-right: 3px;
+}
+
+.presentacion a:hover{
+    color: #cac7d7;
+    border-right: 1px solid #f4ed41;
 }
 
 .presentacion img{
     width: 30%;
     border-radius: 100%;
+}
+
+.sobre-mi{
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.sobre-mi h3{
+    margin-left: 18px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.sobre-mi p::first-letter{
+    font-size: 17px;
 }
 
 
