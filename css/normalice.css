@@ -1,0 +1,15 @@
+.body{
+    background: #352cc1;
+}
+
+.container{
+    width: 940px;
+    margin: 0 auto;
+    font-family: 'Righteous', cursive;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+}

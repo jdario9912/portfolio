@@ -1,219 +1,47 @@
-*{
-    font-family: 'Prompt', sans-serif;
-    color: #cac7d7;
+/* 
+    Paleta de colores
+
+        #3dbfb3 cyan
+        #ef6817 naranja
+        #21201f casi negro
+        #383838 gris mas oscuro
+        #5f605d
+        #727271 gris mas claro
+        #bbbbbb lightgray
+*/
+
+.menu{
+    align-items: center;
+    background: #21201f;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 60px;
 }
 
-body{
-    background-color: #04030cf2;
+.nombre-menu{
+    font-weight: normal;
+    font-size: 20px;
+    color: #3dbfb3;
 }
 
-.navegacion, .principal, .footer{
-    width: 940px;
-    margin: 0 auto;
+.lista-menu{
+    display: flex;
 }
 
-/*-------------------------------------------------------------------------------------------------*/
-
-.presentacion,.skills, .hobbies, .experiencia, .formacion, .contacto, .footer{
-    background-color: #04030cd3;
+.item-menu{
+    margin-right: 15px;
 }
 
-.titulo-seccion{
-    /* background: linear-gradient(90deg, #04030cf2, #ffffff); */
-    background: #f4ed41;
+.item-menu:last-child{
+    margin-right: 0;
 }
 
-.titulo-seccion, .experiencia, .footer, .skills ul, .hobbies ul{
-    text-align: center;
+.link-menu{
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #bbbbbb;
 }
-
-.navegacion li, .presentacion li, .experiencia li{
-    display: inline;
-}
-
-.titulo-principal, .navegacion nav, .presentacion img, .skills li, .hobbies li, .formacion li{
-    display: inline-block;
-}
-
-.titulo-seccion{
-    font-size: 35px;
-}
-
-.titulo-seccion{
-    padding: 10px;
-}
-
-a{
-    text-decoration: none;
-    color: #cac7d7;
-}
-
-.skills, .hobbies{
-    height: 300px;
-}
-
-.skills li, .hobbies li, .navegacion{
-    background: #383140;
-}
-
-/*-------------------------------------------------------------------------------------------------*/
-
-.navegacion{
-    padding: 10px;
-}
-
-.navegacion li{
-    margin: 10px;
-}
-
-.navegacion a:hover{
-    color: #f4ed417a;
-}
-
-.navegacion a:active{
-    color: #f4ed41;
-}
-
-.titulo-principal{
-    width: 40%
-}
-
-.titulo-principal b{
-    color: #f4ed417a;
-}
-
-.navegacion nav{
-    width: 60%;
-    text-align: right;
-}
-
-/*-------------------------------------------------------------------------------------------------*/
 
 .presentacion{
-    padding: 30px 10px 40px 10px;
+    background-image: url(../media/bg-presentacion1.jpg);
 }
-
-.presentacion-texto{
-    float: left;
-    width: 70%;
-}
-
-
-.presentacion-texto-interior{
-    margin-top: 100px;
-}
-
-.presentacion-texto-interior h2{
-    font-size: 20px;
-}
-
-.nombre{
-    display: inline-block;
-    font-family: 'Gideon Roman';
-    font-size: 60px;
-    color: #f4ed41;
-    /* background: linear-gradient(90grad,blueviolet, green, orange); */
-    /* background-clip: text; */
-}
-
-.presentacion-texto-interior li{
-    margin: 0 20px 0 0;
-}
-
-.presentacion ul{
-    margin-top: 15px;
-    text-align: right;
-}
-
-.presentacion a{
-    color: #f4ed417a;
-    border-right: 1px solid #f4ed417a;
-    padding-right: 3px;
-}
-
-.presentacion a:hover{
-    color: #cac7d7;
-    border-right: 1px solid #f4ed41;
-}
-
-.presentacion img{
-    width: 30%;
-    border-radius: 100%;
-}
-
-.sobre-mi{
-    margin-top: 20px;
-    /* font-style: italic; */
-    font-size: 15px;
-}
-
-.sobre-mi h3{
-    /* margin-left: 18px; */
-    margin-bottom: 10px;
-    font-size: 20px;
-}
-
-.sobre-mi p::first-letter{
-    font-size: 17px;
-}
-
-
-/*-------------------------------------------------------------------------------------------------*/
-
-.skills li{
-    text-align: left;
-    height: 100px;
-    width: 100px;
-    border: 1px solid #cac7d7;
-    padding: 5px;
-    margin-top: 120px;
-    margin-bottom: 5px;
-}
-
-.skills img{
-    width: 50px;
-    margin-top: 30px;
-}
-
-/*-------------------------------------------------------------------------------------------------*/
-
-.hobbies li{
-    margin-top: 120px;
-    text-align: left;
-    height: 100px;
-    width: 125px;
-    border: 1px solid #cac7d7;
-    padding: 5px;
-}
-
-.hobbies img{
-    height: 40px;
-    margin-top: 35px;
-    margin-bottom: 5px;
-}
-
-/*-------------------------------------------------------------------------------------------------*/
-
-.formacion{
-    text-align: center;
-}
-
-.formacion li{
-    width: 30%;
-}
-
-/*-------------------------------------------------------------------------------------------------*/
-
-.experiencia li img{
-    width: 30%;
-}
-
-/*-------------------------------------------------------------------------------------------------*/
-
-form label, textarea{
-    display: block;
-}
-
-/*-------------------------------------------------------------------------------------------------*/
-
-/*FOOTER*/
