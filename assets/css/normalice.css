@@ -1,0 +1,23 @@
+/* 
+    Paleta de colores
+
+        #3dbfb3 cyan
+        #ef6817 naranja
+        #21201f casi negro
+        #383838 gris mas oscuro
+        #5f605d
+        #727271 gris mas claro
+        #bbbbbb lightgray
+*/
+
+*{
+    color: #bbbbbb;
+}
+
+.body{
+    background: #352cc1;
+}
+
+a{
+    text-decoration: none;
+}

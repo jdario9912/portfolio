@@ -1,0 +1,16 @@
+.box__contorno{
+    position: relative;
+    /* border: 1px solid #3dbfb3; */
+    text-align: center;
+    opacity: 100%;
+}
+
+.box__contorno{
+    position: relative;
+    margin: 0 auto;
+    z-index: 5;
+    width: 290px;
+    height: 290px;
+    border-radius: 100%;
+    background-color: #3dbfb321;
+}

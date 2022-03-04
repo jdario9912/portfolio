@@ -1,0 +1,9 @@
+.box__favicon{
+    position: relative;
+    margin: 0 auto;
+    top: -270px;
+    z-index: 10;
+    width: 230px;
+    border: 7px solid #3dbfb3;
+    border-radius: 100%;
+}
