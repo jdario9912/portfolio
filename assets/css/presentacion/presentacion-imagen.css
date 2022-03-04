@@ -1,3 +1,6 @@
 .presentacion__imagen{
+    background: url(../../img/presentacion.jpg) center / cover;
+    height: 80vh;
+    position: relative;
     width: 100%;
 }
