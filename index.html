@@ -19,6 +19,15 @@
     <link rel="stylesheet" href="assets/css/presentacion.css">
     <link rel="stylesheet" href="assets/css/presentacion/presentacion-imagen.css">
     <link rel="stylesheet" href="assets/css/presentacion/presentacion-box.css">
+    <link rel="stylesheet" href="assets/css/presentacion/box/box-contorno.css">
+    <link rel="stylesheet" href="assets/css/presentacion/box/box-favicon.css">
+    <link rel="stylesheet" href="assets/css/presentacion/box/box-contenido.css">
+    <link rel="stylesheet" href="assets/css/presentacion/box/contenido/contenido-nombre.css">
+    <link rel="stylesheet" href="assets/css/presentacion/box/contenido/contenido-oficio.css">
+    <link rel="stylesheet" href="assets/css/presentacion/box/contenido/contenido-lista.css">
+    <link rel="stylesheet" href="assets/css/presentacion/box/contenido/contenido-item.css">
+    <link rel="stylesheet" href="assets/css/presentacion/box/contenido/contenido-link.css">
+    <link rel="stylesheet" href="assets/css/presentacion/box/contenido/contenido-icon.css">
 </head>
 <body class="body">
     <div class="container">
@@ -51,26 +60,22 @@
                 <div class="presentacion__imagen"></div>
                 <div class="presentacion__box">
                     <div class="box__contorno"></div>
-                    <img class="box__favicon" src="images/favicon.jpg" alt="rostro primer plano">
-                    <div class="box__info">
-                        <div class="info__contenido">
-                            <h2 class="contenido__nombre">Joel Muñoz</h2>
-                            <p class="contenido__oficio">develop full stack</p>
-                            <ul class="contenido__lista">
-                                <li class="contenido__item">
-                                    <div class="contenido__icon">
-                                        <a href="" class="contenido__link">git</a>
-                                    </div>
-                                </li>
-                                <li class="contenido__item">
-                                    <div class="contenido__icon">
-                                        <a href="" class="contenido__link">linkedin</a>
-                                    </div>
-                                </li>
-                            </ul>
-                            <img class="pre-icon" src="images/iconos/github.png">
-                            <img class="pre-icon" src="images/iconos/linkedin.png">
-                        </div>
+                    <div class="box__favicon"></div>
+                    <div class="box__contenido">
+                        <h2 class="contenido__nombre">Joel Muñoz</h2>
+                        <p class="contenido__oficio">develop full stack</p>
+                        <ul class="contenido__lista">
+                            <li class="contenido__item">
+                                    <a href="" class="contenido__link">
+                                        <div class="contenido__icon contenido__icon--linkedin"></div>
+                                    </a>
+                            </li>
+                            <li class="contenido__item">
+                                    <a href="" class="contenido__link">
+                                        <div class="contenido__icon contenido__icon--github"></div>
+                                    </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             <!-- </section>

@@ -1,0 +1,10 @@
+.box__contenido{
+    background-color: #21201f;
+    border-radius: 5px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    top: -400px;
+    width: 320px;
+}

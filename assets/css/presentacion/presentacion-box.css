@@ -1,7 +1,8 @@
 .presentacion__box{
     background: #21201eb8;
-    height: 80vh;
+    height: calc(614.38px - 12rem);
+    padding: 6rem 0  6rem 0;
     position: relative;
-    top: -80vh;
+    top: -614.38px;
     width: 100%;
 }

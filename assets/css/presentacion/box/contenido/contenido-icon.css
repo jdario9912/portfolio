@@ -1,0 +1,12 @@
+.contenido__icon{
+    height: 40px;
+    width: 40px;
+}
+
+.contenido__icon--linkedin{
+    background: url(../../../../img/contenido-icon/linkedin.png) center / cover;
+}
+
+.contenido__icon--github{
+    background: url(../../../../img/contenido-icon/github.png) center / cover;
+}
