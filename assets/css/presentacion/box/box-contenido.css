@@ -1,10 +1,14 @@
 .box__contenido{
     background-color: #21201f;
     border-radius: 5px;
+    bottom: 0;
     height: 300px;
-    margin: 0 auto;
-    position: relative;
+    left: 0;
+    margin: auto;
+    margin-top: 145px;
+    position: absolute;
+    right: 0;
     text-align: center;
-    top: -400px;
+    top: 0;
     width: 320px;
 }

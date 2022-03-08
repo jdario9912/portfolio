@@ -1,13 +1,10 @@
-.box__contorno{
-    background-color: #3dbfb240;
-    border-radius: 100%;
+.box__contorno-favicon{
     bottom: 0;
     height: 290px;
     left: 0;
-    margin: auto auto;
+    margin: 0 auto;
     position: absolute;
     right: 0;
     top: 0;
     width: 290px;
-    z-index: 5;
 }

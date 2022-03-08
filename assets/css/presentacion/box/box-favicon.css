@@ -2,10 +2,13 @@
     background: url(../../../img/favicon.jpg) center / cover;
     border: 7px solid #3dbfb3;
     border-radius: 100%;
+    bottom: 0;
     height: 230px;
-    margin: 0 auto;
-    position: relative;
-    top: -270px;
+    left: 0;
+    margin: auto auto;
+    position: absolute;
+    right: 0;
+    top: 0;
     width: 230px;
     z-index: 10;
 }

@@ -19,15 +19,18 @@
     <link rel="stylesheet" href="assets/css/presentacion.css">
     <link rel="stylesheet" href="assets/css/presentacion/presentacion-imagen.css">
     <link rel="stylesheet" href="assets/css/presentacion/presentacion-box.css">
+    <link rel="stylesheet" href="assets/css/presentacion/presentacion-central.css">
     <link rel="stylesheet" href="assets/css/presentacion/box/box-contorno.css">
     <link rel="stylesheet" href="assets/css/presentacion/box/box-favicon.css">
     <link rel="stylesheet" href="assets/css/presentacion/box/box-contenido.css">
+    <link rel="stylesheet" href="assets/css/presentacion/box/box-contorno-favicon.css">
     <link rel="stylesheet" href="assets/css/presentacion/box/contenido/contenido-nombre.css">
     <link rel="stylesheet" href="assets/css/presentacion/box/contenido/contenido-oficio.css">
     <link rel="stylesheet" href="assets/css/presentacion/box/contenido/contenido-lista.css">
     <link rel="stylesheet" href="assets/css/presentacion/box/contenido/contenido-item.css">
     <link rel="stylesheet" href="assets/css/presentacion/box/contenido/contenido-link.css">
     <link rel="stylesheet" href="assets/css/presentacion/box/contenido/contenido-icon.css">
+    <link rel="stylesheet" href="assets/css/sobre-mi.css">
 </head>
 <body class="body">
     <div class="container">
@@ -57,34 +60,84 @@
         </header>
         <main>
             <section id="presentacion" class="presentacion">
-                <div class="presentacion__imagen"></div>
-                <div class="presentacion__box">
-                    <div class="box__contorno"></div>
-                    <div class="box__favicon"></div>
-                    <div class="box__contenido">
-                        <h2 class="contenido__nombre">Joel Muñoz</h2>
-                        <p class="contenido__oficio">develop full stack</p>
-                        <ul class="contenido__lista">
-                            <li class="contenido__item">
-                                    <a href="" class="contenido__link">
-                                        <div class="contenido__icon contenido__icon--linkedin"></div>
-                                    </a>
-                            </li>
-                            <li class="contenido__item">
-                                    <a href="" class="contenido__link">
-                                        <div class="contenido__icon contenido__icon--github"></div>
-                                    </a>
-                            </li>
-                        </ul>
+                <div class="presentacion__imagen">
+                    <div class="presentacion__box">
+                        <div class="presentacion__central">
+                            <div class="box__contorno-favicon">
+                                <div class="box__contorno"></div>
+                                <div class="box__favicon"></div>
+                            </div>
+                            <div class="box__contenido">
+                                <h2 class="contenido__nombre">Joel Muñoz</h2>
+                                <p class="contenido__oficio">develop full stack</p>
+                                <ul class="contenido__lista">
+                                    <li class="contenido__item">
+                                        <a href="" class="contenido__link">
+                                            <div class="contenido__icon contenido__icon--linkedin"></div>
+                                        </a>
+                                    </li>
+                                    <li class="contenido__item">
+                                        <a href="" class="contenido__link">
+                                            <div class="contenido__icon contenido__icon--github"></div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            <!-- </section>
-                <div class="sobre-mi">
-                    <h3>Sobre mí</h3>
-                    <p>Soy desarrollador web full stack. Poseo conocimientos en HTML5, CSS3 con Tailwind o nativo y JavaScript para el Front End. En el Back End utilizo PHP nativo y MySQL para el manejo de bases de datos. Mi entorno de desarrollo es Linux preferentemente.</p>
-                    <p>Mi intención es poner en práctica todo lo aprendido y seguir profundizando mis conocimientos en las distintas tecnologías para brindar soluciones ágiles y óptimas a cualquier necesidad en la web.</p>
+            </section>
+            <section class="sobre-mi">
+                <h3 class="sobre-mi__titulo">Sobre mí</h3>
+                <div class="sobre-mi__texto">
+                    <div class="sobre-mi__icon-informacion"></div>
+                    <p class="sobre-mi__parrafo"> <em class="sobre-mi__em">Hola! Mi nombre es Joel Dario Muñoz.</em> Soy desarrollador web full stack. Poseo conocimientos en HTML5, CSS3 con Tailwind o nativo y JavaScript para el Front End. En el Back End utilizo PHP nativo y MySQL para el manejo de bases de datos. Mi entorno de desarrollo es Linux preferentemente.</p>
+                    <p class="sobre-mi__parrafo">Mi intención es poner en práctica todo lo aprendido y seguir profundizando mis conocimientos en las distintas tecnologías para brindar soluciones ágiles y óptimas a cualquier necesidad en la web.</p>
                 </div>
-            <section id="skills" class="skills">
+                <div class="sobre-mi__info-personal">
+                    <div class="sobre-mi__icon-informacion"></div>
+                    <h4 class="sobre-mi__titulo-info-personal">Informacion personal</h4>
+                    <table class="sobre-mi__tabla">
+                        <tr class="sobre-mi__tr">
+                            <td class="sobre-mi__td">Teléfono</td>
+                            <td class="sobre-mi__td">2942-669351</td>
+                        </tr>
+                        <tr>
+                            <td class="sobre-mi__td">e-mail</td>
+                            <td class="sobre-mi__td">joeldari@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td class="sobre-mi__td">Dirección</td>
+                            <td class="sobre-mi__td">2322 Sunchales, Argentina</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="sobre-mi__intereses">
+                    <h4 class="sobre-mi__titulo-intereses">Me gusta</h4>
+                    <ul class="sobre-mi__lista">
+                        <li class="sobre-mi__item">
+                            <div class="sobre-mi__item--guitarra"></div>
+                            <h4>Tocar guitarra</h4>
+                        </li>
+                        <li class="sobre-mi__item">
+                            <div class="sobre-mi__item--auriculares"></div>
+                            <h4>Escuchar música</h4> 
+                        </li>
+                        <li class="sobre-mi__item">
+                            <div class="sobre-mi__item--ciclismo"></div>
+                            <h4>Andar en bici</h4>
+                        </li>
+                        <li class="sobre-mi__item">
+                            <div class="sobre-mi__item--leer"></div>
+                            <h4>Leer</h4>
+                        </li>
+                    </ul>
+                    <a href="#" class="sobre-mi__descargar">
+                        <botton>Descargar CV <div class="sobre-mi__icon-descargar"></div></botton>
+                    </a>
+                </div>
+                </section>
+                <!-- <section id="skills" class="skills">
                 <h3 class="titulo-seccion">Skills</h3>
                 <ul>
                     <li>
@@ -191,28 +244,7 @@
             </section>
             <section id="hobbies" class="hobbies">
                 <h3 class="titulo-seccion">Hobbies</h3>
-                <ul>
-                    <li>
-                        <img src="images/iconos/guitarplayer.svg" alt="tocar guitarra">
-                        <h4>Tocar guitarra</h4>
-                    </li>
-                    <li>
-                        <img src="images/iconos/escucharMusica.svg" alt="escuchar musica">
-                        <h4>Escuchar música</h4> 
-                    </li>
-                    <li>
-                        <img src="images/iconos/componerMusica.svg" alt="componer música">
-                        <h4>Hacer música</h4>
-                    </li>
-                    <li>
-                        <img src="images/iconos/bici.svg" alt="bici">
-                        <h4>Andar en bici</h4>
-                    </li>
-                    <li>
-                        <img src="images/iconos/leer.svg" alt="leer">
-                        <h4>Leer</h4>
-                    </li>
-                </ul>
+                
             </section>
             <section id="contacto" class="contacto">
                 <h3 class="titulo-seccion">Contacto</h3>
