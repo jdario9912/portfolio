@@ -1,0 +1,11 @@
+.sobre-mi__td{
+    letter-spacing: .5px;
+    line-height: 20px;
+    word-spacing: 1px;
+}
+
+.sobre-mi__td--1{
+    color: #3dbfb3;
+    line-height: 30px;
+    padding-right: 80px;
+}

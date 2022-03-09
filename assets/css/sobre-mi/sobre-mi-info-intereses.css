@@ -1,0 +1,6 @@
+.sobre-mi__info-intereses{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+}

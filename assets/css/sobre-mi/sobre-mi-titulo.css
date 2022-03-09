@@ -1,0 +1,13 @@
+.sobre-mi__titulo{
+    bottom: 0;
+    color: #00000052;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 9rem;
+    right: 10px;
+    position: absolute;
+    text-transform: lowercase;
+}
+
+.sobre-mi__titulo::before{
+    content: '>';
+}

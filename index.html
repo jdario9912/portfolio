@@ -7,6 +7,7 @@
     <title>Joel | Web Developer</title>
     <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Gideon+Roman&family=Montserrat:wght@300&family=Prompt:ital,wght@1,200&family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Fredoka:wght@500&family=Gideon+Roman&family=Montserrat:wght@300&family=Pacifico&family=Prompt:ital,wght@1,200&family=Righteous&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/normalice.css">
     <link rel="stylesheet" href="assets/css/container.css">
@@ -32,15 +33,20 @@
     <link rel="stylesheet" href="assets/css/presentacion/box/contenido/contenido-icon.css">
     <link rel="stylesheet" href="assets/css/sobre-mi.css">
     <link rel="stylesheet" href="assets/css/sobre-mi/sobre-mi-btn-descargar.css">
+    <link rel="stylesheet" href="assets/css/sobre-mi/sobre-mi-btn-texto.css">
     <link rel="stylesheet" href="assets/css/sobre-mi/sobre-mi-em.css">
     <link rel="stylesheet" href="assets/css/sobre-mi/sobre-mi-icon-info.css">
+    <link rel="stylesheet" href="assets/css/sobre-mi/sobre-mi-icon-descargar.css">
+    <link rel="stylesheet" href="assets/css/sobre-mi/sobre-mi-info-intereses.css">
     <link rel="stylesheet" href="assets/css/sobre-mi/sobre-mi-info-personal.css">
+    <link rel="stylesheet" href="assets/css/sobre-mi/sobre-mi-intereses.css">
     <link rel="stylesheet" href="assets/css/sobre-mi/sobre-mi-item.css">
     <link rel="stylesheet" href="assets/css/sobre-mi/sobre-mi-lista.css">
     <link rel="stylesheet" href="assets/css/sobre-mi/sobre-mi-parrafo.css">
     <link rel="stylesheet" href="assets/css/sobre-mi/sobre-mi-tabla.css">
     <link rel="stylesheet" href="assets/css/sobre-mi/sobre-mi-td.css">
     <link rel="stylesheet" href="assets/css/sobre-mi/sobre-mi-texto.css">
+    <link rel="stylesheet" href="assets/css/sobre-mi/sobre-mi-titulo.css">
     <link rel="stylesheet" href="assets/css/sobre-mi/sobre-mi-titulo-info-personal.css">
     <link rel="stylesheet" href="assets/css/sobre-mi/sobre-mi-titulo-intereses.css">
     <link rel="stylesheet" href="assets/css/sobre-mi/sobre-mi-tr.css">
@@ -104,52 +110,55 @@
                 <h3 class="sobre-mi__titulo">Sobre mí</h3>
                 <div class="sobre-mi__icon-info"></div>
                 <div class="sobre-mi__texto">
-                    <p class="sobre-mi__parrafo"> <em class="sobre-mi__em">Hola! Mi nombre es Joel Dario Muñoz.</em> Soy desarrollador web full stack. Poseo conocimientos en HTML5, CSS3 con Tailwind o nativo y JavaScript para el Front End. En el Back End utilizo PHP nativo y MySQL para el manejo de bases de datos. Mi entorno de desarrollo es Linux preferentemente.</p>
+                    <p class="sobre-mi__parrafo"> <em class="sobre-mi__em">Hola! Mi nombre es Joel Dario Muñoz.</em> Soy desarrollador web full stack. Poseo conocimientos en HTML5, CSS3 con Tailwind o nativo y JavaScript para el Front End. En el Back End utilizo PHP nativo y MySQL para el manejo de bases de datos. El entorno de desarrollo que utilizo es Linux preferentemente.</p>
                     <p class="sobre-mi__parrafo">Mi intención es poner en práctica todo lo aprendido y seguir profundizando mis conocimientos en las distintas tecnologías para brindar soluciones ágiles y óptimas a cualquier necesidad en la web.</p>
                 </div>
-                <div class="sobre-mi__info-personal">
-                    <h4 class="sobre-mi__titulo-info-personal">Informacion personal</h4>
-                    <table class="sobre-mi__tabla">
-                        <tr class="sobre-mi__tr">
-                            <td class="sobre-mi__td">Teléfono</td>
-                            <td class="sobre-mi__td">2942-669351</td>
-                        </tr>
-                        <tr>
-                            <td class="sobre-mi__td">e-mail</td>
-                            <td class="sobre-mi__td">joeldari@gmail.com</td>
-                        </tr>
-                        <tr>
-                            <td class="sobre-mi__td">Dirección</td>
-                            <td class="sobre-mi__td">2322 Sunchales, Argentina</td>
-                        </tr>
-                    </table>
+                <div class="sobre-mi__info-intereses">
+                    <div class="sobre-mi__info-personal">
+                        <h4 class="sobre-mi__titulo-info-personal">Información personal</h4>
+                        <table class="sobre-mi__tabla">
+                            <tr class="sobre-mi__tr">
+                                <td class="sobre-mi__td sobre-mi__td--1">Teléfono</td>
+                                <td class="sobre-mi__td">2942-669351</td>
+                            </tr>
+                            <tr>
+                                <td class="sobre-mi__td sobre-mi__td--1">e-mail</td>
+                                <td class="sobre-mi__td">joeldario9912@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <td class="sobre-mi__td sobre-mi__td--1">Dirección</td>
+                                <td class="sobre-mi__td">Sunchales, Santa Fe, Argentina</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="sobre-mi__intereses">
+                        <h4 class="sobre-mi__titulo-intereses">Me gusta</h4>
+                        <ul class="sobre-mi__lista">
+                            <li class="sobre-mi__item">
+                                <div class="sobre-mi__item--guitarra"></div>
+                                <h4>Tocar guitarra</h4>
+                            </li>
+                            <li class="sobre-mi__item">
+                                <div class="sobre-mi__item--auriculares"></div>
+                                <h4>Escuchar música</h4> 
+                            </li>
+                            <li class="sobre-mi__item">
+                                <div class="sobre-mi__item--ciclismo"></div>
+                                <h4>Andar en bici</h4>
+                            </li>
+                            <li class="sobre-mi__item">
+                                <div class="sobre-mi__item--leer"></div>
+                                <h4>Leer</h4>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="sobre-mi__intereses">
-                    <h4 class="sobre-mi__titulo-intereses">Me gusta</h4>
-                    <ul class="sobre-mi__lista">
-                        <li class="sobre-mi__item">
-                            <div class="sobre-mi__item--guitarra"></div>
-                            <h4>Tocar guitarra</h4>
-                        </li>
-                        <li class="sobre-mi__item">
-                            <div class="sobre-mi__item--auriculares"></div>
-                            <h4>Escuchar música</h4> 
-                        </li>
-                        <li class="sobre-mi__item">
-                            <div class="sobre-mi__item--ciclismo"></div>
-                            <h4>Andar en bici</h4>
-                        </li>
-                        <li class="sobre-mi__item">
-                            <div class="sobre-mi__item--leer"></div>
-                            <h4>Leer</h4>
-                        </li>
-                    </ul>
-                    <a href="#" class="sobre-mi__btn-descargar">
-                        <botton>Descargar CV <div class="sobre-mi__icon-descargar"></div></botton>
-                    </a>
-                </div>
-                </section>
-                <!-- <section id="skills" class="skills">
+                <a href="#" class="sobre-mi__btn-descargar">
+                    <h4 class="sobre_mi__btn-texto">Descargar CV</h4>
+                    <div class="sobre-mi__icon-descargar"></div>
+                </a>
+            </section>
+            <!-- <section id="skills" class="skills">
                 <h3 class="titulo-seccion">Skills</h3>
                 <ul>
                     <li>
