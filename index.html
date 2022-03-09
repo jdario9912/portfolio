@@ -51,11 +51,13 @@
     <link rel="stylesheet" href="assets/css/sobre-mi/sobre-mi-titulo-intereses.css">
     <link rel="stylesheet" href="assets/css/sobre-mi/sobre-mi-tr.css">
     <link rel="stylesheet" href="assets/css/skills.css">
-    <link rel="stylesheet" href="assets/css/skills/skills-icon.css">
-    <link rel="stylesheet" href="assets/css/skills/skills-item.css">
-    <link rel="stylesheet" href="assets/css/skills/skills-lista.css">
-    <link rel="stylesheet" href="assets/css/skills/skills-titulo-item.css">
-    <link rel="stylesheet" href="assets/css/skills/skills-titulo.css">
+    <link rel="stylesheet" href="assets/css/skills/skills-hard.css">
+    <link rel="stylesheet" href="assets/css/skills/skills-hard/skills-icon.css">
+    <link rel="stylesheet" href="assets/css/skills/skills-hard/skills-item.css">
+    <link rel="stylesheet" href="assets/css/skills/skills-hard/skills-lista.css">
+    <link rel="stylesheet" href="assets/css/skills/skills-hard/skills-titulo-item.css">
+    <link rel="stylesheet" href="assets/css/skills/skills-hard/skills-titulo.css">
+    <link rel="stylesheet" href="assets/css/skills/skills-soft.css">
 </head>
 <body class="body">
     <div class="container">
@@ -142,19 +144,19 @@
                         <ul class="sobre-mi__lista">
                             <li class="sobre-mi__item">
                                 <div class="sobre-mi__item--guitarra"></div>
-                                <h4>Tocar guitarra</h4>
+                                <h5>Tocar guitarra</h5>
                             </li>
                             <li class="sobre-mi__item">
                                 <div class="sobre-mi__item--auriculares"></div>
-                                <h4>Escuchar música</h4> 
+                                <h5>Escuchar música</h5> 
                             </li>
                             <li class="sobre-mi__item">
                                 <div class="sobre-mi__item--ciclismo"></div>
-                                <h4>Andar en bici</h4>
+                                <h5>Andar en bici</h5>
                             </li>
                             <li class="sobre-mi__item">
                                 <div class="sobre-mi__item--leer"></div>
-                                <h4>Leer</h4>
+                                <h5>Leer</h5>
                             </li>
                         </ul>
                     </div>
@@ -167,43 +169,71 @@
             <section id="skills" class="skills">
                 <h3 class="skills__titulo">Skills</h3>
                 <div class="skills__icon--skills"></div>
-                <ul class="skills__lista">
-                    <li class="skills__item">
-                        <div class="skills__icon skills__icon--html"></div>
-                        <h4 class="skills__titulo-item">HTML5</h4>
-                        <input type="range" name="html" id="html" step="70" min="0" max="100">
-                    </li>
-                    <li>
-                        <div class="skills__icon skills__icon--css"></div>
-                        <h4 class="skills__titulo-item">CSS</h4>
-                        <input type="range" name="css" id="css" step="70" min="0" max="100">
-                    </li>
-                    <li>
-                        <div class="skills__icon skills__icon--js"></div>
-                        <h4 class="skills__titulo-item">JavaScript</h4>
-                        <input type="range" name="js" id="js" step="70" min="0" max="100">
-                    </li>
-                    <li>
-                        <div class="skills__icon skills__icon--php"></div>
-                        <h4 class="skills__titulo-item">PHP</h4>
-                        <input type="range" name="php" id="php" step="70" min="0" max="100">
-                    </li>
-                    <li>
-                        <div class="skills__icon skills__icon--mysql"></div>
-                        <h4 class="skills__titulo-item">My/SQL</h4>
-                        <input type="range" name="mysql" id="mysql" step="70" min="0" max="100">
-                    </li>
-                    <li>
-                        <div class="skills__icon skills__icon--github"></div>
-                        <h4 class="skills__titulo-item">GitHub</h4>
-                        <input type="range" name="github" id="github" step="70" min="0" max="100">
-                    </li>
-                    <li>
-                        <div class="skills__icon skills__icon--linux"></div>
-                        <h4 class="skills__titulo-item">Linux</h4>
-                        <input type="range" name="linux" id="linux" step="70" min="0" max="100">
-                    </li>
-                </ul>
+                <div class="skills__hard">
+                    <h4 class="skills__hard-titulo">Hard Skills</h4>
+                    <ul class="skills__lista">
+                        <li class="skills__item">
+                            <div class="skills__icon skills__icon--html"></div>
+                            <h5 class="skills__titulo-item">HTML5</h5>
+                            <input type="range" name="html" id="html" step="70" min="0" max="100">
+                        </li>
+                        <li>
+                            <div class="skills__icon skills__icon--css"></div>
+                            <h5 class="skills__titulo-item">CSS3</h5>
+                            <input type="range" name="css" id="css" step="70" min="0" max="100">
+                        </li>
+                        <li>
+                            <div class="skills__icon skills__icon--js"></div>
+                            <h5 class="skills__titulo-item">JavaScript</h5>
+                            <input type="range" name="js" id="js" step="70" min="0" max="100">
+                        </li>
+                        <li>
+                            <div class="skills__icon skills__icon--php"></div>
+                            <h5 class="skills__titulo-item">PHP</h5>
+                            <input type="range" name="php" id="php" step="70" min="0" max="100">
+                        </li>
+                        <li>
+                            <div class="skills__icon skills__icon--mysql"></div>
+                            <h5 class="skills__titulo-item">My/SQL</h5>
+                            <input type="range" name="mysql" id="mysql" step="70" min="0" max="100">
+                        </li>
+                        <li>
+                            <div class="skills__icon skills__icon--github"></div>
+                            <h5 class="skills__titulo-item">GitHub</h5>
+                            <input type="range" name="github" id="github" step="70" min="0" max="100">
+                        </li>
+                        <li>
+                            <div class="skills__icon skills__icon--linux"></div>
+                            <h5 class="skills__titulo-item">Linux</h5>
+                            <input type="range" name="linux" id="linux" step="70" min="0" max="100">
+                        </li>
+                    </ul>
+                </div>
+                <div class="skills__soft">
+                    <h4 class="skills__soft-titulo">Soft Skills</h4>
+                    <ul class="skills__soft-lista">
+                        <li class="skills__soft-item"> 
+                            <h5 class="skill__soft-titulo-skill">Trabajo en equipo</h5>
+                            <input class="skills__soft-input" type="range" step="50" min="0" max="100">
+                        </li>
+                        <li class="skills__soft-item"> 
+                            <h5 class="skill__soft-titulo-skill">Aprendizaje rápido</h5> 
+                            <input class="skills__soft-input" type="range" step="50" min="0" max="100">
+                        </li>
+                        <li class="skills__soft-item"> 
+                            <h5 class="skill__soft-titulo-skill">Responsabilidad</h5> 
+                            <input class="skills__soft-input" type="range" step="50" min="0" max="100">
+                        </li>
+                        <li class="skills__soft-item"> 
+                            <h5 class="skill__soft-titulo-skill">Fácil adaptación</h5> 
+                            <input class="skills__soft-input" type="range" step="50" min="0" max="100">
+                        </li>
+                        <li class="skills__soft-item"> 
+                            <h5 class="skill__soft-titulo-skill">Prolijidad</h5> 
+                            <input class="skills__soft-input" type="range" step="50" min="0" max="100">
+                        </li>
+                    </ul>
+                </div>
             </section>
             <!-- <section id="experiencia" class="experiencia">
                 <h3 class="titulo-seccion">Experiencia profesional</h3>

@@ -14,25 +14,25 @@
 }
 
 .sobre-mi__item--guitarra{
-    background: url(../../img/sobre-mi/sobre-mi-intereses/guitarra.png) no-repeat center / cover;
+    background: url(../../img/sobre-mi-icon/sobre-mi-intereses/guitarra.png) no-repeat center / cover;
     height: 30px;
     width: 30px;
 }
 
 .sobre-mi__item--auriculares{
-    background: url(../../img/sobre-mi/sobre-mi-intereses/auriculares.png) no-repeat center / cover;
+    background: url(../../img/sobre-mi-icon/sobre-mi-intereses/auriculares.png) no-repeat center / cover;
     height: 30px;
     width: 30px;
 }
 
 .sobre-mi__item--ciclismo{
-    background: url(../../img/sobre-mi/sobre-mi-intereses/ciclismo.png) no-repeat center / cover;
+    background: url(../../img/sobre-mi-icon/sobre-mi-intereses/ciclismo.png) no-repeat center / cover;
     height: 30px;
     width: 30px;
 }
 
 .sobre-mi__item--leer{
-    background: url(../../img/sobre-mi/sobre-mi-intereses/leer.png) no-repeat center / cover;
+    background: url(../../img/sobre-mi-icon/sobre-mi-intereses/leer.png) no-repeat center / cover;
     height: 30px;
     width: 30px;
 }
