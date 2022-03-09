@@ -50,6 +50,12 @@
     <link rel="stylesheet" href="assets/css/sobre-mi/sobre-mi-titulo-info-personal.css">
     <link rel="stylesheet" href="assets/css/sobre-mi/sobre-mi-titulo-intereses.css">
     <link rel="stylesheet" href="assets/css/sobre-mi/sobre-mi-tr.css">
+    <link rel="stylesheet" href="assets/css/skills.css">
+    <link rel="stylesheet" href="assets/css/skills/skills-icon.css">
+    <link rel="stylesheet" href="assets/css/skills/skills-item.css">
+    <link rel="stylesheet" href="assets/css/skills/skills-lista.css">
+    <link rel="stylesheet" href="assets/css/skills/skills-titulo-item.css">
+    <link rel="stylesheet" href="assets/css/skills/skills-titulo.css">
 </head>
 <body class="body">
     <div class="container">
@@ -158,40 +164,48 @@
                     <div class="sobre-mi__icon-descargar"></div>
                 </a>
             </section>
-            <!-- <section id="skills" class="skills">
-                <h3 class="titulo-seccion">Skills</h3>
-                <ul>
-                    <li>
-                        <img src="images/iconos/html5Icono.png" alt="logo HTML5">
-                        <h4>HTML5</h4>
+            <section id="skills" class="skills">
+                <h3 class="skills__titulo">Skills</h3>
+                <div class="skills__icon--skills"></div>
+                <ul class="skills__lista">
+                    <li class="skills__item">
+                        <div class="skills__icon skills__icon--html"></div>
+                        <h4 class="skills__titulo-item">HTML5</h4>
+                        <input type="range" name="html" id="html" step="70" min="0" max="100">
                     </li>
                     <li>
-                        <img src="images/iconos/css3Icono.png" alt="logo CSS3">
-                        <h4>CSS</h4>
+                        <div class="skills__icon skills__icon--css"></div>
+                        <h4 class="skills__titulo-item">CSS</h4>
+                        <input type="range" name="css" id="css" step="70" min="0" max="100">
                     </li>
                     <li>
-                        <img src="images/iconos/JSIcono.png" alt="logo JS">
-                        <h4>JavaScript</h4>
+                        <div class="skills__icon skills__icon--js"></div>
+                        <h4 class="skills__titulo-item">JavaScript</h4>
+                        <input type="range" name="js" id="js" step="70" min="0" max="100">
                     </li>
                     <li>
-                        <img src="images/iconos/phpIcono.png" alt="logo PHP">
-                        <h4>PHP</h4>
+                        <div class="skills__icon skills__icon--php"></div>
+                        <h4 class="skills__titulo-item">PHP</h4>
+                        <input type="range" name="php" id="php" step="70" min="0" max="100">
                     </li>
                     <li>
-                        <img src="images/iconos/mysqlIcono.png" alt="logo mysql">
-                        <h4>My/SQL</h4>
+                        <div class="skills__icon skills__icon--mysql"></div>
+                        <h4 class="skills__titulo-item">My/SQL</h4>
+                        <input type="range" name="mysql" id="mysql" step="70" min="0" max="100">
                     </li>
                     <li>
-                        <img src="images/iconos/githubIcono.png" alt="logo GitHub">
-                        <h4>GitHub</h4>
+                        <div class="skills__icon skills__icon--github"></div>
+                        <h4 class="skills__titulo-item">GitHub</h4>
+                        <input type="range" name="github" id="github" step="70" min="0" max="100">
                     </li>
                     <li>
-                        <img src="images/iconos/linuxIcono.png" alt="logo Linux">
-                        <h4>Linux</h4>
+                        <div class="skills__icon skills__icon--linux"></div>
+                        <h4 class="skills__titulo-item">Linux</h4>
+                        <input type="range" name="linux" id="linux" step="70" min="0" max="100">
                     </li>
                 </ul>
             </section>
-            <section id="experiencia" class="experiencia">
+            <!-- <section id="experiencia" class="experiencia">
                 <h3 class="titulo-seccion">Experiencia profesional</h3>
                 <ul>
                     <li>
@@ -262,10 +276,6 @@
                         </li>
                     </div>
                 </ul>
-            </section>
-            <section id="hobbies" class="hobbies">
-                <h3 class="titulo-seccion">Hobbies</h3>
-                
             </section>
             <section id="contacto" class="contacto">
                 <h3 class="titulo-seccion">Contacto</h3>
