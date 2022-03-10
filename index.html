@@ -16,7 +16,6 @@
     <link rel="stylesheet" href="assets/css/menu/menu-link.css">
     <link rel="stylesheet" href="assets/css/menu/menu-lista.css">
     <link rel="stylesheet" href="assets/css/menu/menu-nombre.css">
-    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/presentacion.css">
     <link rel="stylesheet" href="assets/css/presentacion/presentacion-imagen.css">
     <link rel="stylesheet" href="assets/css/presentacion/presentacion-box.css">
@@ -57,6 +56,7 @@
     <link rel="stylesheet" href="assets/css/skills/skills-hard/skills-item.css">
     <link rel="stylesheet" href="assets/css/skills/skills-hard/skills-lista.css">
     <link rel="stylesheet" href="assets/css/skills/skills-hard/skills-hard-titulo.css">
+    <link rel="stylesheet" href="assets/css/skills/skills-hard/skills-icon-titulo.css">
     <link rel="stylesheet" href="assets/css/skills/skills-hard/skills-titulo-item.css">
     <link rel="stylesheet" href="assets/css/skills/skills-hard/skills-input.css">
     <link rel="stylesheet" href="assets/css/skills/skills-titulo.css">
@@ -66,6 +66,13 @@
     <link rel="stylesheet" href="assets/css/skills/skills-soft/skills-soft-lista.css">
     <link rel="stylesheet" href="assets/css/skills/skills-soft/skills-soft-titulo-skill.css">
     <link rel="stylesheet" href="assets/css/skills/skills-soft/skills-soft-titulo.css">
+    <link rel="stylesheet" href="assets/css/experiencia.css">
+    <link rel="stylesheet" href="assets/css/experiencia/experiencia-icon-link.css">
+    <link rel="stylesheet" href="assets/css/experiencia/experiencia-icon.css">
+    <link rel="stylesheet" href="assets/css/experiencia/experiencia-item.css">
+    <link rel="stylesheet" href="assets/css/experiencia/experiencia-link.css">
+    <link rel="stylesheet" href="assets/css/experiencia/experiencia-lista.css">
+    <link rel="stylesheet" href="assets/css/experiencia/experiencia-titulo.css">
 </head>
 <body class="body">
     <div class="container">
@@ -79,13 +86,10 @@
                     <a href="#skills" class="menu__link">Skills</a>
                 </li>
                 <li class="menu__item">
-                    <a href="#hobbies" class="menu__link">Hobbies</a>
+                    <a href="#experiencia" class="menu__link">Proyectos</a>
                 </li>
                 <li  class="menu__item">
                     <a href="#formacion" class="menu__link">Formación</a>
-                </li>
-                <li class="menu__item">
-                    <a href="#experiencia" class="menu__link">Proyectos</a>
                 </li>
                 <li class="menu__item">
                     <a href="#contacto" class="menu__link">Contácto</a>
@@ -182,38 +186,52 @@
                         <h4 class="skills__hard-titulo">Hard Skills</h4>
                         <ul class="skills__lista">
                             <li class="skills__item">
-                                <div class="skills__icon skills__icon--html"></div>
-                                <h5 class="skills__titulo-item">HTML5</h5>
+                                <div class="skills__icon-titulo">
+                                    <div class="skills__icon skills__icon--html"></div>
+                                    <h5 class="skills__titulo-item">HTML5</h5>
+                                </div>
                                 <input class="skills__input" type="range" name="html" id="html" step="70" min="0" max="100">
                             </li>
                             <li class="skills__item">
-                                <div class="skills__icon skills__icon--css"></div>
-                                <h5 class="skills__titulo-item">CSS3</h5>
+                                <div class="skills__icon-titulo">
+                                    <div class="skills__icon skills__icon--css"></div>
+                                    <h5 class="skills__titulo-item">CSS3</h5>
+                                </div>
                                 <input class="skills__input" type="range" name="css" id="css" step="70" min="0" max="100">
                             </li>
                             <li class="skills__item">
-                                <div class="skills__icon skills__icon--js"></div>
-                                <h5 class="skills__titulo-item">JavaScript</h5>
+                                <div class="skills__icon-titulo">
+                                    <div class="skills__icon skills__icon--js"></div>
+                                    <h5 class="skills__titulo-item">JavaScript</h5>
+                                </div>
                                 <input class="skills__input" type="range" name="js" id="js" step="70" min="0" max="100">
                             </li>
                             <li class="skills__item">
-                                <div class="skills__icon skills__icon--php"></div>
-                                <h5 class="skills__titulo-item">PHP</h5>
+                                <div class="skills__icon-titulo">
+                                    <div class="skills__icon skills__icon--php"></div>
+                                    <h5 class="skills__titulo-item">PHP</h5>
+                                </div>
                                 <input class="skills__input" type="range" name="php" id="php" step="70" min="0" max="100">
                             </li>
                             <li class="skills__item">
-                                <div class="skills__icon skills__icon--mysql"></div>
-                                <h5 class="skills__titulo-item">MySQL</h5>
+                                <div class="skills__icon-titulo">
+                                    <div class="skills__icon skills__icon--mysql"></div>
+                                    <h5 class="skills__titulo-item">MySQL</h5>
+                                </div>
                                 <input class="skills__input" type="range" name="mysql" id="mysql" step="70" min="0" max="100">
                             </li>
                             <li class="skills__item">
-                                <div class="skills__icon skills__icon--github"></div>
-                                <h5 class="skills__titulo-item">GitHub</h5>
+                                <div class="skills__icon-titulo">
+                                    <div class="skills__icon skills__icon--github"></div>
+                                    <h5 class="skills__titulo-item">GitHub</h5>
+                                </div>
                                 <input class="skills__input" type="range" name="github" id="github" step="70" min="0" max="100">
                             </li>
                             <li class="skills__item">
-                                <div class="skills__icon skills__icon--linux"></div>
-                                <h5 class="skills__titulo-item">Linux</h5>
+                                <div class="skills__icon-titulo">
+                                    <div class="skills__icon skills__icon--linux"></div>
+                                    <h5 class="skills__titulo-item">Linux</h5>
+                                </div>
                                 <input class="skills__input" type="range" name="linux" id="linux" step="70" min="0" max="100">
                             </li>
                         </ul>
@@ -246,22 +264,31 @@
                 </div>
 
             </section>
-            <!-- <section id="experiencia" class="experiencia">
-                <h3 class="titulo-seccion">Experiencia profesional</h3>
-                <ul>
-                    <li>
-                        <a href="https://jdario9912.github.io/Juego-del-ahoracado-Alura/" target="_blank">
-                            <img src="images/ahorcado.png" alt="juego ahorcado">
-                        </a>
+            <section id="experiencia" class="experiencia">
+                <h3 class="experiencia__titulo">Experiencia</h3>
+                <div class="experiencia__icon"></div>
+                <ul class="experiencia__lista">
+                    <li class="experiencia__item">
+                        <div class="experiencia__icon-link experiencia__icon-link--ahorcado"></div>
+                        <div>
+                            <div>
+                                <h4>titulo</h4>
+                                <p>descripcion</p>
+                            </div>
+                            <div>
+                                <a class="experiencia__link" href="https://jdario9912.github.io/Juego-del-ahoracado-Alura/" target="_blank">repositorio</a>
+                                <a class="experiencia__link" href="https://jdario9912.github.io/Juego-del-ahoracado-Alura/" target="_blank">ver demo</a>
+                            </div>
+                        </div>
                     </li>
-                    <li>
-                        <a href="https://jdario9912.github.io/Primer-challenge-Alura-Latam/" target="_blanck">
-                            <img src="images/codigoSecreto.png" alt="juego codigo secreto">
+                    <!-- <li>
+                        <a class="experiencia__link" href="https://jdario9912.github.io/Primer-challenge-Alura-Latam/" target="_blanck">
+                            <div class="experiencia__icon-link experiencia__icon-link--encriptado"></div>
                         </a>
-                    </li>
+                    </li> -->
                 </ul>
             </section>
-            <section id="formacion" class="formacion">
+            <!-- <section id="formacion" class="formacion">
                 <h3 class="titulo-seccion">Formación IT</h3>
                 <ul>
                     <div class="fila-1">

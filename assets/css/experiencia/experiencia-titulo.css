@@ -1,0 +1,13 @@
+.experiencia__titulo{
+    bottom: 0;
+    color: #0000001f;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 9rem;
+    right: 10px;
+    position: absolute;
+    text-transform: lowercase;
+}
+
+.experiencia__titulo::before {
+    content: '>';
+}
