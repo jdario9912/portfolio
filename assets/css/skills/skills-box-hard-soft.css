@@ -1,0 +1,6 @@
+.skills__box-hard-soft{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 70px;
+}

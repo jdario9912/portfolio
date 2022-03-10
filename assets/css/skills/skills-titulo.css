@@ -1,4 +1,4 @@
-.sobre-mi__titulo{
+.skills__titulo{
     bottom: 0;
     color: #0000001f;
     font-family: 'Fredoka', sans-serif;
@@ -8,6 +8,6 @@
     text-transform: lowercase;
 }
 
-.sobre-mi__titulo::before{
+.skills__titulo::before{
     content: '>';
 }

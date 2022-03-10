@@ -1,5 +1,5 @@
-.skills__soft-input{
-    width: 200px;
+.skills__input{
+    width: 300px;
     height: 15px;
     -webkit-appearance: none;
     background: #4e4e4e80;
@@ -8,7 +8,7 @@
     overflow: hidden;
 }
 
-.skills__soft-input::-webkit-slider-thumb {
+.skills__input::-webkit-slider-thumb {
     -webkit-appearance: none;
     width: 15px;
     height: 15px;
