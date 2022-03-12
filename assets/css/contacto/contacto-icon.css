@@ -1,0 +1,6 @@
+.contacto__icon {
+    background: url(../../img/contacto-icon/contacto-icon.png) no-repeat center / cover;
+    height: 40px;
+    margin: 0 auto;
+    width: 40px;
+}

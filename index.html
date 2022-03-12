@@ -78,6 +78,14 @@
     <link rel="stylesheet" href="assets/css/experiencia/experiencia-box-texto-parrafo.css">
     <link rel="stylesheet" href="assets/css/experiencia/experiencia-box-texto-tiulo.css">
     <link rel="stylesheet" href="assets/css/experiencia/experiencia-box-texto.css">
+    <link rel="stylesheet" href="assets/css/contacto.css">
+    <link rel="stylesheet" href="assets/css/contacto/contacto-titulo.css">
+    <link rel="stylesheet" href="assets/css/contacto/contacto-icon.css">
+    <link rel="stylesheet" href="assets/css/contacto/contacto-parrafo.css">
+    <link rel="stylesheet" href="assets/css/contacto/contacto-formulario.css">
+    <link rel="stylesheet" href="assets/css/contacto/contacto-label.css">
+    <link rel="stylesheet" href="assets/css/contacto/contacto-input.css">
+    <link rel="stylesheet" href="assets/css/contacto/contacto-btn.css">
 </head>
 <body class="body">
     <div class="container">
@@ -306,6 +314,7 @@
                     </li> -->
                 </ul>
             </section>
+            <p>Aca falta contenido</p>
             <!-- <section id="formacion" class="formacion">
                 <h3 class="titulo-seccion">Formación IT</h3>
                 <ul>
@@ -362,22 +371,23 @@
                         </li>
                     </div>
                 </ul>
-            </section>
-            <section id="contacto" class="contacto">
-                <h3 class="titulo-seccion">Contacto</h3>
-                <p>Llená el formulario, te respondo en breve</p>
-                <form>
-                    <label for="nombre">Nombre</label>
-                    <input type="text" id="nombre">
-                    <label for="email">E-mail</label>
-                    <input type="text" id="email">
-                    <label for="asunto">Asunto</label>
-                    <input type="text" id="asunto">
-                    <label for="mensaje">Mensaje</label>
-                    <textarea name="" id="mensaje" cols="30" rows="10"></textarea>
-                    <button type="submit">Enviar</button>
-                </form>
             </section> -->
+            <section id="contacto" class="contacto">
+                <h3 class="contacto__titulo">Contacto</h3>
+                <div class="contacto__icon"></div>
+                <p class="contacto__parrafo">Llená el formulario, te respondo en breve.</p>
+                <form class="contacto__formulario">
+                    <label class="contacto__label" for="nombre">Nombre</label>
+                    <input class="contacto__input" type="text" id="nombre" required>
+                    <label class="contacto__label" for="email">E-mail</label>
+                    <input class="contacto__input" type="text" id="email" required>
+                    <label class="contacto__label" for="asunto">Asunto</label>
+                    <input class="contacto__input" type="text" id="asunto" required>
+                    <label class="contacto__label" for="mensaje">Mensaje</label>
+                    <textarea class="contacto__input--text-area" name="" id="mensaje" cols="30" rows="10" required></textarea>
+                    <button class="contacto__btn" type="submit">Enviar</button>
+                </form>
+            </section>
         </main>
         <footer class="footer">
             <p>&#169 Creado por Joel Dario Muñoz <time>2022</time></p>
