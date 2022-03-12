@@ -1,8 +1,7 @@
-.experiencia__item{
+.experiencia__box-links{
     display: flex;
     flex-direction: row;
-    height: 180px;
-    margin-bottom: 20px;
+    margin-top: 30px;
     position: relative;
     width: 100%;
 }

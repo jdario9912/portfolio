@@ -1,0 +1,14 @@
+.experiencia__link{
+    border: .5px solid #3dbfb3;
+    padding: 5px 20px;
+}
+
+.experiencia__link--repositorio{
+    color: #3dbfb3;
+    margin-right: 5px;
+}
+
+.experiencia__link--demo{
+    background: #3dbfb3;
+    text-transform: transparent;
+}
