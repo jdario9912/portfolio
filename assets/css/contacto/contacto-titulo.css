@@ -1,13 +1,7 @@
 .contacto__titulo{
-    bottom: 0;
-    color: #0000001f;
-    font-family: 'Fredoka', sans-serif;
-    font-size: 9rem;
-    right: 10px;
-    position: absolute;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
     text-transform: lowercase;
-}
-
-.contacto__titulo::before {
-    content: '>';
+    margin: 10px 0;
 }

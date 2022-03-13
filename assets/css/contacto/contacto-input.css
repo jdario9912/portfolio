@@ -1,7 +1,10 @@
 .contacto__input{
     height: 30px;
+    color: #000000;
 }
 
 .contacto__input--text-area{
     height: 200px;
+    color: #000000;
+
 }

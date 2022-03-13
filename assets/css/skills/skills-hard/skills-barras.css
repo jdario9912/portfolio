@@ -1,0 +1,104 @@
+.barra{
+    border-radius: 10px;
+    margin-top: 3px;
+    position: relative;
+    width: 300px;
+}
+
+.barra-bg{
+    background: #767676;
+    border-radius: 10px;
+    height: 12px;
+    position: absolute;
+    width: 100%;
+}
+
+.barra-frente{
+    background: #3dbfb3;
+    border-radius: 10px;
+    height: 12px;
+    position: relative;
+    width: 0;
+}
+
+#barra-html{
+    animation: html-barra 2s forwards;
+}
+
+@keyframes html-barra {
+    100%{
+        width: 85%;
+    }
+}
+
+#barra-css{
+    animation: css-barra 2s forwards;
+}
+
+@keyframes css-barra {
+    100%{
+        width: 80%;
+    }
+}
+
+#barra-js{
+    animation: js-barra 2s forwards;
+}
+
+@keyframes js-barra {
+    100%{
+        width: 62%;
+    }
+}
+
+#barra-php{
+    animation: php-barra 2s forwards;
+}
+
+@keyframes php-barra {
+    100%{
+        width: 75%;
+    }
+}
+
+#barra-mysql{
+    animation: mysql-barra 2s forwards;
+}
+
+@keyframes mysql-barra {
+    100%{
+        width: 70%;
+    }
+}
+
+#barra-github{
+    animation: github-barra 2s forwards;
+}
+
+@keyframes github-barra {
+    100%{
+        width: 73%;
+    }
+}
+
+#barra-linux{
+    animation: linux-barra 2s forwards;
+}
+
+@keyframes linux-barra {
+    100%{
+        width: 55%;
+    }
+}
+
+.porcentaje{
+    color: #ffffff;
+    font-size: 11px;
+    margin-right: 2px;
+    position: relative;
+    text-align: right;
+}
+
+.titulo{
+    text-transform: lowercase;
+}

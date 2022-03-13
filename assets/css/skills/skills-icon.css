@@ -1,45 +1,6 @@
 .skills__icon{
-    height: 30px;
-    width: 30px;
-}
-
-.skills__icon--skills{
     background: url(../../img/skills-icon/skills-icon.png) no-repeat center / cover;
     height: 40px;
     margin: 0 auto;
     width: 40px;
-}
-
-.skills__icon--html{
-    background: url(../../img/skills-icon/html-5.png) no-repeat center / cover;
-}
-
-.skills__icon--css{
-    background: url(../../img/skills-icon/css-3.png) no-repeat center / cover;
-
-}
-
-.skills__icon--js{
-    background: url(../../img/skills-icon/java-script.png) no-repeat center / cover;
-
-}
-
-.skills__icon--php{
-    background: url(../../img/skills-icon/php.png) no-repeat center / cover;
-
-}
-
-.skills__icon--mysql{
-    background: url(../../img/skills-icon/mysql.png) no-repeat center / cover;
-
-}
-
-.skills__icon--github{
-    background: url(../../img/skills-icon/github.png) no-repeat center / cover;
-
-}
-
-.skills__icon--linux{
-    background: url(../../img/skills-icon/linux.png) no-repeat center / cover;
-    
 }

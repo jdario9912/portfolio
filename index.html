@@ -50,17 +50,14 @@
     <link rel="stylesheet" href="assets/css/sobre-mi/sobre-mi-titulo-intereses.css">
     <link rel="stylesheet" href="assets/css/sobre-mi/sobre-mi-tr.css">
     <link rel="stylesheet" href="assets/css/skills.css">
-    <link rel="stylesheet" href="assets/css/skills/skills-box-hard-soft.css">
-    <link rel="stylesheet" href="assets/css/skills/skills-hard.css">
     <link rel="stylesheet" href="assets/css/skills/skills-icon.css">
+    <link rel="stylesheet" href="assets/css/skills/skills-titulo.css">
+    <link rel="stylesheet" href="assets/css/skills/skills-box-hard-soft.css">
     <link rel="stylesheet" href="assets/css/skills/skills-hard/skills-item.css">
     <link rel="stylesheet" href="assets/css/skills/skills-hard/skills-lista.css">
     <link rel="stylesheet" href="assets/css/skills/skills-hard/skills-hard-titulo.css">
-    <link rel="stylesheet" href="assets/css/skills/skills-hard/skills-icon-titulo.css">
-    <link rel="stylesheet" href="assets/css/skills/skills-hard/skills-titulo-item.css">
-    <link rel="stylesheet" href="assets/css/skills/skills-hard/skills-input.css">
-    <link rel="stylesheet" href="assets/css/skills/skills-titulo.css">
-    <link rel="stylesheet" href="assets/css/skills/skills-soft.css">
+    <link rel="stylesheet" href="assets/css/skills/skills-hard/skills-barras.css">
+    <link rel="stylesheet" href="assets/css/skills/skills-soft/skills-soft-barras.css">
     <link rel="stylesheet" href="assets/css/skills/skills-soft/skills-soft-input.css">
     <link rel="stylesheet" href="assets/css/skills/skills-soft/skills-soft-item.css">
     <link rel="stylesheet" href="assets/css/skills/skills-soft/skills-soft-lista.css">
@@ -140,8 +137,8 @@
                 </div>
             </section>
             <section class="sobre-mi">
-                <h3 class="sobre-mi__titulo">Sobre mí</h3>
                 <div class="sobre-mi__icon-info"></div>
+                <h3 class="sobre-mi__titulo">Sobre mí</h3>
                 <div class="sobre-mi__texto">
                     <p class="sobre-mi__parrafo"> <em class="sobre-mi__em">Hola! Mi nombre es Joel Dario Muñoz.</em> Soy desarrollador web full stack. Poseo conocimientos en HTML5, CSS3 con Tailwind o nativo y JavaScript para el Front End. En el Back End utilizo PHP nativo y MySQL para el manejo de bases de datos. El entorno de desarrollo que utilizo es Linux preferentemente.</p>
                     <p class="sobre-mi__parrafo">Mi intención es poner en práctica todo lo aprendido y seguir profundizando mis conocimientos en las distintas tecnologías para brindar soluciones ágiles y óptimas a cualquier necesidad en la web.</p>
@@ -192,60 +189,74 @@
                 </a>
             </section>
             <section id="skills" class="skills">
+                <div class="skills__icon"></div>
                 <h3 class="skills__titulo">Skills</h3>
-                <div class="skills__icon--skills"></div>
                 <div class="skills__box-hard-soft">
                     <div class="skills__hard">
                         <h4 class="skills__hard-titulo">Hard Skills</h4>
                         <ul class="skills__lista">
                             <li class="skills__item">
-                                <div class="skills__icon-titulo">
-                                    <div class="skills__icon skills__icon--html"></div>
-                                    <h5 class="skills__titulo-item">HTML5</h5>
+                                <span class="titulo">HTML5</span>
+                                <div class="barra">
+                                    <div class="barra-bg"></div>
+                                    <div id="barra-html" class="barra-frente">
+                                        <legend class="porcentaje">85%</legend>
+                                    </div>
                                 </div>
-                                <input class="skills__input" type="range" name="html" id="html" step="70" min="0" max="100">
                             </li>
                             <li class="skills__item">
-                                <div class="skills__icon-titulo">
-                                    <div class="skills__icon skills__icon--css"></div>
-                                    <h5 class="skills__titulo-item">CSS3</h5>
+                                <span class="titulo">CSS3</span>
+                                <div class="barra">
+                                    <div class="barra-bg"></div>
+                                    <div id="barra-css" class="barra-frente">
+                                        <legend class="porcentaje">80%</legend>
+                                    </div>
                                 </div>
-                                <input class="skills__input" type="range" name="css" id="css" step="70" min="0" max="100">
                             </li>
                             <li class="skills__item">
-                                <div class="skills__icon-titulo">
-                                    <div class="skills__icon skills__icon--js"></div>
-                                    <h5 class="skills__titulo-item">JavaScript</h5>
+                                <span class="titulo">JS</span>
+                                <div class="barra">
+                                    <div class="barra-bg"></div>
+                                    <div id="barra-js" class="barra-frente">
+                                        <legend class="porcentaje">62%</legend>
+                                    </div>
                                 </div>
-                                <input class="skills__input" type="range" name="js" id="js" step="70" min="0" max="100">
                             </li>
                             <li class="skills__item">
-                                <div class="skills__icon-titulo">
-                                    <div class="skills__icon skills__icon--php"></div>
-                                    <h5 class="skills__titulo-item">PHP</h5>
+                                <span class="titulo">PHP</span>
+                                <div class="barra">
+                                    <div class="barra-bg"></div>
+                                    <div id="barra-php" class="barra-frente">
+                                        <legend class="porcentaje">75%</legend>
+                                    </div>
                                 </div>
-                                <input class="skills__input" type="range" name="php" id="php" step="70" min="0" max="100">
                             </li>
                             <li class="skills__item">
-                                <div class="skills__icon-titulo">
-                                    <div class="skills__icon skills__icon--mysql"></div>
-                                    <h5 class="skills__titulo-item">MySQL</h5>
+                                <span class="titulo">MySQL</span>
+                                <div class="barra">
+                                    <div class="barra-bg"></div>
+                                    <div id="barra-mysql" class="barra-frente">
+                                        <legend class="porcentaje">70%</legend>
+                                    </div>
                                 </div>
-                                <input class="skills__input" type="range" name="mysql" id="mysql" step="70" min="0" max="100">
                             </li>
                             <li class="skills__item">
-                                <div class="skills__icon-titulo">
-                                    <div class="skills__icon skills__icon--github"></div>
-                                    <h5 class="skills__titulo-item">GitHub</h5>
+                                <span class="titulo">GitHub</span>
+                                <div class="barra">
+                                    <div class="barra-bg"></div>
+                                    <div id="barra-github" class="barra-frente">
+                                        <legend class="porcentaje">73%</legend>
+                                    </div>
                                 </div>
-                                <input class="skills__input" type="range" name="github" id="github" step="70" min="0" max="100">
                             </li>
                             <li class="skills__item">
-                                <div class="skills__icon-titulo">
-                                    <div class="skills__icon skills__icon--linux"></div>
-                                    <h5 class="skills__titulo-item">Linux</h5>
+                                <span class="titulo">Linux</span>
+                                <div class="barra">
+                                    <div class="barra-bg"></div>
+                                    <div id="barra-linux" class="barra-frente">
+                                        <legend class="porcentaje">55%</legend>
+                                    </div>
                                 </div>
-                                <input class="skills__input" type="range" name="linux" id="linux" step="70" min="0" max="100">
                             </li>
                         </ul>
                     </div>
@@ -253,24 +264,58 @@
                         <h4 class="skills__soft-titulo">Soft Skills</h4>
                         <ul class="skills__soft-lista">
                             <li class="skills__soft-item"> 
-                                <h5 class="skills__soft-titulo-skill">Trabajo en equipo</h5>
-                                <input class="skills__soft-input" type="range" step="50" min="0" max="100">
+                                <span class="titulo">Trabajo en equipo</span>
+                                <div class="barra">
+                                    <div class="barra-bg"></div>
+                                    <div id="barra-equipo" class="barra-frente">
+                                        <legend class="porcentaje">87%</legend>
+                                    </div>
+                                </div>
                             </li>
-                            <li class="skills__soft-item"> 
-                                <h5 class="skills__soft-titulo-skill">Aprendizaje rápido</h5> 
-                                <input class="skills__soft-input" type="range" step="50" min="0" max="100">
+                            <li class="skills__soft-item">
+                                <span class="titulo">Aprendizaje rápido</span>
+                                <div class="barra">
+                                    <div class="barra-bg"></div>
+                                    <div id="barra-aprendizaje" class="barra-frente">
+                                        <legend class="porcentaje">70%</legend>
+                                    </div>
+                                </div>
                             </li>
-                            <li class="skills__soft-item"> 
-                                <h5 class="skills__soft-titulo-skill">Responsabilidad</h5> 
-                                <input class="skills__soft-input" type="range" step="50" min="0" max="100">
+                            <li class="skills__soft-item">
+                                <span class="titulo">Responsabilidad</span>
+                                <div class="barra">
+                                    <div class="barra-bg"></div>
+                                    <div id="barra-responsabilidad" class="barra-frente">
+                                        <legend class="porcentaje">90%</legend>
+                                    </div>
+                                </div>
                             </li>
-                            <li class="skills__soft-item"> 
-                                <h5 class="skills__soft-titulo-skill">Fácil adaptación</h5> 
-                                <input class="skills__soft-input" type="range" step="50" min="0" max="100">
+                            <li class="skills__soft-item">
+                                <span class="titulo">Fácil adaptación</span>
+                                <div class="barra">
+                                    <div class="barra-bg"></div>
+                                    <div id="barra-adaptacion" class="barra-frente">
+                                        <legend class="porcentaje">92%</legend>
+                                    </div>
+                                </div> 
                             </li>
-                            <li class="skills__soft-item"> 
-                                <h5 class="skills__soft-titulo-skill">Prolijidad</h5> 
-                                <input class="skills__soft-input" type="range" step="50" min="0" max="100">
+                            <li class="skills__soft-item">
+                                <span class="titulo">Prolijidad</span>
+                                <div class="barra">
+                                    <div class="barra-bg"></div>
+                                    <div id="barra-prolijidad" class="barra-frente">
+                                        <legend class="porcentaje">99%</legend>
+                                    </div>
+                                </div> 
+                            </li>
+                            <li class="skills__soft-item">
+                                <span class="titulo">Comunicación</span>
+                                <div class="barra">
+                                    <div class="barra-bg"></div>
+                                    <div id="barra-comunicacion" class="barra-frente">
+                                        <legend class="porcentaje">82%</legend>
+                                    </div>
+                                </div> 
                             </li>
                         </ul>
                     </div>
@@ -278,8 +323,8 @@
 
             </section>
             <section id="experiencia" class="experiencia">
-                <h3 class="experiencia__titulo">Experiencia</h3>
                 <div class="experiencia__icon"></div>
+                <h3 class="experiencia__titulo">Experiencia</h3>
                 <ul class="experiencia__lista">
                     <li class="experiencia__item">
                         <div class="experiencia__icon-link experiencia__icon-link--ahorcado"></div>
@@ -373,14 +418,14 @@
                 </ul>
             </section> -->
             <section id="contacto" class="contacto">
-                <h3 class="contacto__titulo">Contacto</h3>
                 <div class="contacto__icon"></div>
+                <h3 class="contacto__titulo">Contacto</h3>
                 <p class="contacto__parrafo">Llená el formulario, te respondo en breve.</p>
                 <form class="contacto__formulario">
                     <label class="contacto__label" for="nombre">Nombre</label>
                     <input class="contacto__input" type="text" id="nombre" required>
                     <label class="contacto__label" for="email">E-mail</label>
-                    <input class="contacto__input" type="text" id="email" required>
+                    <input class="contacto__input" type="email" id="email" required>
                     <label class="contacto__label" for="asunto">Asunto</label>
                     <input class="contacto__input" type="text" id="asunto" required>
                     <label class="contacto__label" for="mensaje">Mensaje</label>

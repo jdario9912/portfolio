@@ -1,0 +1,94 @@
+/* .barra{
+    border-radius: 10px;
+    margin-top: 3px;
+    position: relative;
+    width: 300px;
+}
+
+.barra-bg{
+    background: #767676;
+    border-radius: 10px;
+    height: 12px;
+    position: absolute;
+    width: 100%;
+}
+
+.barra-frente{
+    background: #3dbfb3;
+    border-radius: 10px;
+    height: 12px;
+    position: relative;
+    width: 0;
+} */
+
+#barra-equipo{
+    animation: equipo-barra 2s forwards;
+}
+
+@keyframes equipo-barra {
+    100%{
+        width: 87%;
+    }
+}
+
+#barra-aprendizaje{
+    animation: aprendizaje-barra 2s forwards;
+}
+
+@keyframes aprendizaje-barra {
+    100%{
+        width: 70%;
+    }
+}
+
+#barra-responsabilidad{
+    animation: responsabilidad-barra 2s forwards;
+}
+
+@keyframes responsabilidad-barra {
+    100%{
+        width: 90%;
+    }
+}
+
+#barra-adaptacion{
+    animation: adaptacion-barra 2s forwards;
+}
+
+@keyframes adaptacion-barra {
+    100%{
+        width: 92%;
+    }
+}
+
+#barra-prolijidad{
+    animation: prolijidad-barra 2s forwards;
+}
+
+@keyframes prolijidad-barra {
+    100%{
+        width: 99%;
+    }
+}
+
+#barra-comunicacion{
+    animation: comunicacion-barra 2s forwards;
+}
+
+@keyframes comunicacion-barra {
+    100%{
+        width: 82%;
+    }
+}
+
+.porcentaje{
+    color: #ffffff;
+    font-size: 11px;
+    margin-right: 2px;
+    position: relative;
+    text-align: right;
+}
+
+.titulo{
+    text-transform: lowercase;
+}
