@@ -1,0 +1,19 @@
+.formacion__fila{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.formacion__fila--1{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.formacion__fila--2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    position: relative;
+}

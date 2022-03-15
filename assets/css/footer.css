@@ -16,3 +16,11 @@
 .footer__nombre{
     color: #3dbfb3;
 }
+
+.footer__fecha{
+    margin-right: 5px;
+}
+
+.footer__repositorio:hover{
+    text-decoration: underline;
+}

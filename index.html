@@ -85,6 +85,16 @@
     <link rel="stylesheet" href="assets/css/contacto/contacto-input.css">
     <link rel="stylesheet" href="assets/css/contacto/contacto-btn.css">
     <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/formacion/formacion-icon.css">
+    <link rel="stylesheet" href="assets/css/formacion/formacion-titulo.css">
+    <link rel="stylesheet" href="assets/css/formacion/formacion-lista.css">
+    <link rel="stylesheet" href="assets/css/formacion/formacion-fila.css">
+    <link rel="stylesheet" href="assets/css/formacion/formacion-item.css">
+    <link rel="stylesheet" href="assets/css/formacion/formacion-icons.css">
+    <link rel="stylesheet" href="assets/css/formacion/formacion-lista-titulo.css">
+    <link rel="stylesheet" href="assets/css/formacion/formacion-parrafo.css">
+    <link rel="stylesheet" href="assets/css/formacion/formacion-textos.css">
+    <link rel="stylesheet" href="assets/css/formacion/formacion-link.css">
 </head>
 <body class="body">
     <div class="container">
@@ -103,9 +113,9 @@
                 <li  class="menu__item">
                     <a href="#formacion" class="menu__link">Formación</a>
                 </li>
-                <li class="menu__item">
+                <!-- <li class="menu__item">
                     <a href="#contacto" class="menu__link">Contácto</a>
-                </li>
+                </li> -->
             </ul>
             </nav>
         </header>
@@ -123,12 +133,12 @@
                                 <p class="contenido__oficio">develop full stack</p>
                                 <ul class="contenido__lista">
                                     <li class="contenido__item">
-                                        <a href="" class="contenido__link">
+                                        <a href="https://www.linkedin.com/in/joel-dario-mu%C3%B1oz-68b173180/" class="contenido__link" target="_blank">
                                             <div class="contenido__icon contenido__icon--linkedin"></div>
                                         </a>
                                     </li>
                                     <li class="contenido__item">
-                                        <a href="" class="contenido__link">
+                                        <a href="https://github.com/jdario9912" class="contenido__link" target="_blank">
                                             <div class="contenido__icon contenido__icon--github"></div>
                                         </a>
                                     </li>
@@ -142,7 +152,7 @@
                 <div class="sobre-mi__icon-info"></div>
                 <h3 class="sobre-mi__titulo">Sobre mí</h3>
                 <div class="sobre-mi__texto">
-                    <p class="sobre-mi__parrafo"> <em class="sobre-mi__em">Hola! Mi nombre es Joel Dario Muñoz.</em> Soy desarrollador web full stack. Poseo conocimientos en HTML5, CSS3 con Tailwind o nativo y JavaScript para el Front End. En el Back End utilizo PHP nativo y MySQL para el manejo de bases de datos. El entorno de desarrollo que utilizo es Linux preferentemente.</p>
+                    <p class="sobre-mi__parrafo"> <em class="sobre-mi__em">Hola! Mi nombre es Joel Dario Muñoz.</em> Soy estudiante de programación web full stack. Poseo conocimientos en HTML5, CSS3 con Tailwind o nativo y JavaScript para el Front End. En el Back End utilizo PHP nativo y MySQL para el manejo de bases de datos. El entorno de desarrollo que utilizo es Linux preferentemente.</p>
                     <p class="sobre-mi__parrafo">Mi intención es poner en práctica todo lo aprendido y seguir profundizando mis conocimientos en las distintas tecnologías para brindar soluciones ágiles y óptimas a cualquier necesidad en la web.</p>
                 </div>
                 <div class="sobre-mi__info-intereses">
@@ -185,10 +195,10 @@
                         </ul>
                     </div>
                 </div>
-                <a href="#" class="sobre-mi__btn-descargar">
+                <!-- <a href="#" class="sobre-mi__btn-descargar">
                     <h4 class="sobre_mi__btn-texto">Descargar CV</h4>
                     <div class="sobre-mi__icon-descargar"></div>
-                </a>
+                </a> -->
             </section>
             <section id="skills" class="skills">
                 <div class="skills__icon"></div>
@@ -362,63 +372,88 @@
                 </ul>
             </section>
             <section id="formacion" class="formacion">
-                <h3 class="titulo-seccion">Formación IT</h3>
-                <ul>
-                    <div class="fila-1">
-                        <li>
-                            <a href="https://www.youtube.com/c/Alura" target="_blank">
-                                <img src="images/iconos/alura.jpg" alt="logo alura">
-                                <h4>Alura</h4>
-                                <p>Programador Web Full Stack</p>
-                                <p>ONE - Oracle Next Eduducation</p>
+                <div class="formacion__icon"></div>
+                <h3 class="formacion__titulo">Formación IT</h3>
+                <ul class="formacion__lista">
+                    <div class="formacion__fila formacion__fila--1">
+                        <li class="formacion__item">
+                            <a class="formacion__link" href="https://www.youtube.com/c/Alura" target="_blank">
+                                <div class="formacion__icons formacion__icons--alura"></div>
+                                <div class="formacion__textos">
+                                    <h4 class="formacion__lista-titulo">Alura</h4>
+                                    <p class="formacion__parrafo formacion__parrafo--1">Programador Web Full Stack</p>
+                                    <p class="formacion__parrafo formacion__parrafo--2">ONE - Oracle Next Eduducation</p>
+                                </div>
                             </a>
                         </li>
-                        <li>
-                            <a href="https://www.youtube.com/c/CodersFree" target="_blank">
-                                <img src="images/iconos/codersFree.jpg" alt="logo coders free">
-                                <h4>Coders Free</h4>
-                                <p>Tailwind CSS3</p>
-                                <p>Autodidacta</p>
+                        <li class="formacion__item">
+                            <a class="formacion__link" href="https://www.youtube.com/c/CodersFree" target="_blank">
+                                <div class="formacion__icons formacion__icons--coders-free"></div>
+                                <div class="formacion__textos">
+                                    <h4 class="formacion__lista-titulo">Coders Free</h4>
+                                    <p class="formacion__parrafo formacion__parrafo--1">Tailwind CSS3</p>
+                                    <p class="formacion__parrafo formacion__parrafo--2">Autodidacta</p>
+                                </div>
                             </a>
                         </li>
-                        <li>
-                            <a href="https://www.youtube.com/c/DorianDesings" target="_blank" rel="noopener noreferrer">
-                                <img src="images/iconos/dorianDesings.jpg" alt="logo dorian">
-                                <h4>Dorian Desings</h4>
-                                <p>HTML5</p>
-                                <p>Autodidacta</p>
+                        <li class="formacion__item">
+                            <a class="formacion__link" href="https://www.youtube.com/c/pildorasinformaticas" target="_blank">
+                                <div class="formacion__icons formacion__icons--pildoras"></div>
+                                <div class="formacion__textos">
+                                    <h4 class="formacion__lista-titulo">Pildoras Informáticas</h4>
+                                    <p class="formacion__parrafo formacion__parrafo--1">PHP/MySQL</p>
+                                    <p class="formacion__parrafo formacion__parrafo--2">Autodidacta</p>
+                                </div>
                             </a>
                         </li>
                     </div>
-                    <div class="fila-2">
-                        <li>
-                            <a href="https://www.youtube.com/c/pildorasinformaticas" target="_blank">
-                                <img src="images/iconos/pildorasInformaticas.jpg" alt="logo pildoras informaticas">
-                                <h4>Pildoras Informáticas</h4>
-                                <p>PHP/MySQL</p>
-                                <p>Autodidacta</p>
+                    <div class="formacion__fila formacion__fila--2">
+                        <li class="formacion__item">
+                            <a class="formacion__link" href="https://www.youtube.com/c/pildorasinformaticas" target="_blank">
+                                <div class="formacion__icons formacion__icons--pildoras"></div>
+                                <div class="formacion__textos">
+                                    <h4 class="formacion__lista-titulo">SQL</h4>
+                                    <p class="formacion__parrafo formacion__parrafo--1">Pildoras Informáticas</p>
+                                    <p class="formacion__parrafo formacion__parrafo--2">Autodidacta</p>
+                                </div>
                             </a>
                         </li>
-                        <li>
-                            <a href="https://www.youtube.com/c/ErnestoP%C3%A9rezM" target="_blank">
-                                <img src="images/iconos/wikipediaErnesto.jpg" alt="logo wikipedia de Ernesto">
-                                <h4>Wikipedia de Ernesto</h4>
-                                <p>Java inicial</p>
-                                <p>Autodidacta</p>
+                        <li class="formacion__item">
+                            <a class="formacion__link" href="https://www.youtube.com/c/ErnestoP%C3%A9rezM" target="_blank">
+                                <div class="formacion__icons formacion__icons--wikipedia"></div>
+                                <div class="formacion__textos">
+                                    <h4 class="formacion__lista-titulo">Wikipedia de Ernesto</h4>
+                                    <p class="formacion__parrafo formacion__parrafo--1">Java inicial</p>
+                                    <p class="formacion__parrafo formacion__parrafo--2">Autodidacta</p>
+                                </div>
                             </a>
                         </li>
-                        <li>
-                            <a href="https://www.youtube.com/c/Freecodecamp" target="_blank">
-                                <img src="images/iconos/freeCodeCamp.jpg" alt="logo free code camp">
-                                <h4>Free Code Camp</h4>
-                                <p>Java Script inicial</p>
-                                <p>Autodidacta</p>
+                        <li class="formacion__item">
+                            <a class="formacion__link" href="https://www.youtube.com/c/Freecodecamp" target="_blank">
+                                <div class="formacion__icons formacion__icons--free-code-camp"></div>
+                                <div class="formacion__textos">
+                                    <h4 class="formacion__lista-titulo">Free Code Camp</h4>
+                                    <p class="formacion__parrafo formacion__parrafo--1">Java Script inicial</p>
+                                    <p class="formacion__parrafo formacion__parrafo--2">Autodidacta</p>
+                                </div>
+                            </a>
+                        </li>
+                    </div>
+                    <div class="formacion__fila  formacion__fila--3">
+                        <li class="formacion__item">
+                            <a class="formacion__link" href="https://www.youtube.com/c/DorianDesings" target="_blank" rel="noopener noreferrer">
+                                <div class="formacion__icons formacion__icons--dorian"></div>
+                                <div class="formacion__textos">
+                                    <h4 class="formacion__lista-titulo">Dorian Desings</h4>
+                                    <p class="formacion__parrafo formacion__parrafo--1">HTML5</p>
+                                    <p class="formacion__parrafo formacion__parrafo--2">Autodidacta</p>
+                                </div>
                             </a>
                         </li>
                     </div>
                 </ul>
             </section>
-            <section id="contacto" class="contacto">
+            <!-- <section id="contacto" class="contacto">
                 <div class="contacto__icon"></div>
                 <h3 class="contacto__titulo">Contacto</h3>
                 <p class="contacto__parrafo">Llená el formulario, te respondo en breve.</p>
@@ -433,7 +468,7 @@
                     <textarea class="contacto__input--text-area" name="" id="mensaje" cols="30" rows="10" required></textarea>
                     <button class="contacto__btn" type="submit">Enviar</button>
                 </form>
-            </section>
+            </section> -->
         </main>
         <footer class="footer">
             <ul class="footer__lista">
@@ -449,11 +484,12 @@
                 <li  class="menu__item">
                     <a href="#formacion" class="menu__link">Formación</a>
                 </li>
-                <li class="menu__item">
+                <!-- <li class="menu__item">
                     <a href="#contacto" class="menu__link">Contácto</a>
-                </li>
+                </li> -->
             </ul>
-            <p>&#169 Copyrigth <em class="footer__nombre">Joel</em> Dario Muñoz | <time>2022</time></p>
+            <p>&#169 Copyrigth <em class="footer__nombre">Joel</em> Dario Muñoz | <time class="footer__fecha">2022</time></p>
+            <a class="footer__repositorio" href="https://github.com/jdario9912/portfolio" target="_blank"> repositorio</a>
         </footer>
     </div>
 </body>

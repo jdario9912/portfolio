@@ -1,0 +1,31 @@
+.formacion__icons{
+    height: 60px;
+    opacity: 50%;
+    width: 60px;
+}
+
+.formacion__icons--alura{
+    background: url(../../img/formacion-icon/alura.jpg) no-repeat center / cover;
+}
+
+.formacion__icons--coders-free{
+    background: url(../../img/formacion-icon/codersFree.jpg) no-repeat center / cover;
+}
+
+.formacion__icons--dorian{
+    background: url(../../img/formacion-icon/dorianDesings.jpg) no-repeat center / cover;
+
+}
+
+.formacion__icons--pildoras{
+    background: url(../../img/formacion-icon/pildorasInformaticas.jpg) no-repeat center / cover;
+}
+
+.formacion__icons--wikipedia{
+    background: url(../../img/formacion-icon/wikipediaErnesto.jpg) no-repeat center / cover;
+
+}
+
+.formacion__icons--free-code-camp{
+    background: url(../../img/formacion-icon/freeCodeCamp.jpg) no-repeat center / cover;
+}

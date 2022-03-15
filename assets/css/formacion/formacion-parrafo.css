@@ -1,0 +1,13 @@
+.formacion__parrafo{
+    letter-spacing: .5px;
+    line-height: 20px;
+    word-spacing: 1px
+}
+
+.formacion__parrafo--1{
+
+}
+
+.formacion__parrafo--2{
+    font-style: italic;
+}
