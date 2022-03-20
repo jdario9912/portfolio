@@ -1,14 +1,12 @@
 .box__contenido{
-    background-color: #21201f;
+    align-items: center;
+    background-color: var(--background-gris-oscuro);
     border-radius: 5px;
-    bottom: 0;
-    height: 300px;
-    left: 0;
-    margin: auto;
-    margin-top: 145px;
-    position: absolute;
-    right: 0;
-    text-align: center;
-    top: 0;
-    width: 320px;
+    display: flex;
+    flex-direction: column;
+    height: 18.75rem;
+    justify-content: flex-end;
+    position: relative;
+    top: 31.5%;
+    width: 100%;
 }

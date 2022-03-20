@@ -1,6 +1,5 @@
 .contenido__oficio{
     font-size: 1.2rem;
-    position: relative;
+    line-height: none;
     text-transform: capitalize;
-    top: 51%;
 }

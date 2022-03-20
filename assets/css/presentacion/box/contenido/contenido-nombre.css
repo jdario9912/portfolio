@@ -1,5 +1,4 @@
 .contenido__nombre{
     font-size: 3rem;
-    position: relative;
-    top: 51%;
+    line-height: initial;
 }

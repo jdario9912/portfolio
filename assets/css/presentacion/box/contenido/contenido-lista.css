@@ -1,6 +1,6 @@
 .contenido__lista{
     display: flex;
-    left: 30%;
-    position: absolute;
-    top: 75%;
+    justify-content: space-evenly;
+    margin: 20px 0;
+    width: 100%;
 }
