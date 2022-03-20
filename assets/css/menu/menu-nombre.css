@@ -1,5 +1,4 @@
 .menu__nombre{
-    font-weight: normal;
-    font-size: 20px;
-    color: #3dbfb3;
+    font-size: 1.5rem;
+    color: var(--color-distintivo);
 }

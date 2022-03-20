@@ -1,8 +1,9 @@
 .menu{
     align-items: center;
-    background: #21201f;
+    background: var(--background-gris-oscuro);
     border-radius: 5px 5px 0 0;
     display: flex;
+    height: 55px;
     justify-content: space-between;
-    padding: 15px 60px;
+    padding: 15px 3rem;
 }

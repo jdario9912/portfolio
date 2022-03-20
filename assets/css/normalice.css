@@ -1,21 +1,36 @@
-/* 
-    Paleta de colores
+:root{
+    /* Colores */
+    --background-body: #352cc1;
+    --background-gris-oscuro: #21201f;
+    --background-gris-claro: #303030;
+    --background-me-gusta: #3a3a3a;
+    --background-footer: #000;
+    --background-transparencia: #21201eb8;
 
-        #3dbfb3 cyan
-        #ef6817 naranja
-        #21201f casi negro
-        #383838 gris mas oscuro
-        #5f605d
-        #727271 gris mas claro
-        #bbbbbb lightgray
-*/
+    --color-fuente: #bbb;
+    --color-distintivo: #3dbfb3;
+    --color-distintivo-transparencia: #3dbfb240;
+    --colot-titulo-experiencia: #727070;
+
+    /* Fonts */
+    --righteous: 'Righteous', cursive, sans-serif;
+
+    /* Shadows */
+    --shadow-container: 0px 0px 15px 0px rgba(0,0,0,0.75);
+}
 
 *{
-    color: #bbbbbb;
+    color: var(--color-fuente);
+    letter-spacing: .031rem;
+    line-height: 1.25rem;
+    word-spacing: .062rem;
 }
 
 .body{
-    background: #352cc1;
+    background: var(--background-body);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 a{
