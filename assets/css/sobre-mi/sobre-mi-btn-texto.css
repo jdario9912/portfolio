@@ -1,2 +1,4 @@
 .sobre_mi__btn-texto{
+    display: flex;
+    line-height: none;
 }

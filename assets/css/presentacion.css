@@ -1,5 +1,5 @@
 .presentacion{
     background: url(../img/presentacion.jpg) no-repeat center / cover;
-    height: calc(100vh - 55px);
+    height: 650px;
     width: 100%;
 }

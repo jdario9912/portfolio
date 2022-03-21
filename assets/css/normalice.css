@@ -36,3 +36,16 @@
 a{
     text-decoration: none;
 }
+
+.sobre-mi{
+    padding: 30px 4.375rem 80px 4.375rem;
+}
+
+.sobre-mi__icon-info{
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.sobre-mi__titulo{
+    line-height: 3.125rem;
+}
