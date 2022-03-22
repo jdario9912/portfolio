@@ -1,6 +1,7 @@
 .experiencia__lista{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    gap: .425rem;
     margin-top: 30px;
-    position: relative;
+    width: 100%;
 }

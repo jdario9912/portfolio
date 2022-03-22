@@ -1,14 +1,11 @@
 .experiencia__link{
-    border: .5px solid #3dbfb3;
-    padding: 5px 20px;
+    border: .5px solid var(--color-distintivo);
+    padding: .313rem 1.25rem;
 }
 
 .experiencia__link--repositorio{
-    color: #3dbfb3;
-    margin-right: 5px;
+    color: var(--color-distintivo);
+    margin-right: .313rem;
 }
 
-.experiencia__link--demo{
-    background: #3dbfb3;
-    text-transform: transparent;
-}
+.experiencia__link--demo{}

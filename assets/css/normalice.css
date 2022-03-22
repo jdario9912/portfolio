@@ -44,13 +44,15 @@ a{
 }
 
 .sobre-mi__icon-info,
-.skills__icon{
+.skills__icon,
+.experiencia__icon{
     height: 2.5rem;
     width: 2.5rem;
 }
 
 .sobre-mi__titulo,
-.skills__titulo{
+.skills__titulo,
+.experiencia__titulo{
     font-size: 1.875rem;
     line-height: 3.125rem;
     text-transform: lowercase;
