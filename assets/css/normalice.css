@@ -37,15 +37,21 @@ a{
     text-decoration: none;
 }
 
-.sobre-mi{
+.sobre-mi,
+.skills,
+.experiencia{
     padding: 30px 4.375rem 80px 4.375rem;
 }
 
-.sobre-mi__icon-info{
+.sobre-mi__icon-info,
+.skills__icon{
     height: 2.5rem;
     width: 2.5rem;
 }
 
-.sobre-mi__titulo{
+.sobre-mi__titulo,
+.skills__titulo{
+    font-size: 1.875rem;
     line-height: 3.125rem;
+    text-transform: lowercase;
 }

@@ -1,4 +1,5 @@
 .skills__hard-titulo{
     font-size: 2rem;
     text-transform: capitalize;
+    line-height: none;
 }
