@@ -1,11 +1,9 @@
 .sobre-mi__btn-descargar{
     border: 2px solid #bbbbbb;
     display: flex;
-    height: 30px;
-    margin: 50px auto 0 auto;
-    padding: 10px 0 0 10px;
-    position: relative;
-    z-index: 10;
+    height: 1.875rem;
+    margin-top: 3.125rem;
+    padding: 0.625rem 0 0 0.625rem;
 }
 
 .sobre-mi__btn-descargar:hover{

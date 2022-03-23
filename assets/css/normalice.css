@@ -14,6 +14,7 @@
 
     /* Fonts */
     --righteous: 'Righteous', cursive, sans-serif;
+    --sans-pro: 'Source Sans Pro', sans-serif;
 
     /* Shadows */
     --shadow-container: 0px 0px 15px 0px rgba(0,0,0,0.75);
@@ -40,14 +41,16 @@ a{
 .sobre-mi,
 .skills,
 .experiencia,
-.formacion{
+.formacion,
+.contacto{
     padding: 30px 4.375rem 80px 4.375rem;
 }
 
 .sobre-mi__icon-info,
 .skills__icon,
 .experiencia__icon,
-.formacion__icon{
+.formacion__icon,
+.contacto__icon{
     height: 2.5rem;
     width: 2.5rem;
 }
@@ -55,7 +58,8 @@ a{
 .sobre-mi__titulo,
 .skills__titulo,
 .experiencia__titulo,
-.formacion__titulo{
+.formacion__titulo,
+.contacto__titulo{
     font-size: 1.875rem;
     line-height: 3.125rem;
     text-transform: lowercase;

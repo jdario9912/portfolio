@@ -6,5 +6,6 @@
     flex-wrap: wrap;
     height: 3.438rem;
     justify-content: space-between;
-    padding: 15px 3rem;
+    padding: 0.938rem 3rem;
+    /* width: auto; */
 }

@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Gideon+Roman&family=Montserrat:wght@300&family=Prompt:ital,wght@1,200&family=Righteous&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Fredoka:wght@500&family=Gideon+Roman&family=Montserrat:wght@300&family=Pacifico&family=Prompt:ital,wght@1,200&family=Righteous&display=swap" rel="stylesheet">
+    <enlace href="https: //fonts.googleapis.com/css2? family= Baloo+2 & family= Fredoka:wght@500 & family= Gideon+Roman & family= Montserrat:ital,wght@0,300;0,400;1,600 & family= Open+Sans: ital,wght@0,400;0,700;1,300 & family= Pacifico & family= Prompt:ital,wght@1,200 & family= Righteous &familia = Fuente + Sans + Pro: peso @ 200 & display=swap" rel="stylesheet"></enlace>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/normalice.css">
     <link rel="stylesheet" href="assets/css/container.css">
@@ -15,6 +16,7 @@
     <link rel="stylesheet" href="assets/css/menu/menu-item.css">
     <link rel="stylesheet" href="assets/css/menu/menu-link.css">
     <link rel="stylesheet" href="assets/css/menu/menu-lista.css">
+    <link rel="stylesheet" href="assets/css/menu/menu-hamburguesa.css">
     <link rel="stylesheet" href="assets/css/menu/menu-nav.css">
     <link rel="stylesheet" href="assets/css/menu/menu-nombre.css">
     <link rel="stylesheet" href="assets/css/presentacion.css">
@@ -80,7 +82,6 @@
     <link rel="stylesheet" href="assets/css/formacion/formacion-textos.css">
     <link rel="stylesheet" href="assets/css/formacion/formacion-link.css">
     <link rel="stylesheet" href="assets/css/contacto.css">
-    <link rel="stylesheet" href="assets/css/contacto/contacto-titulo.css">
     <link rel="stylesheet" href="assets/css/contacto/contacto-icon.css">
     <link rel="stylesheet" href="assets/css/contacto/contacto-parrafo.css">
     <link rel="stylesheet" href="assets/css/contacto/contacto-formulario.css">
@@ -88,6 +89,7 @@
     <link rel="stylesheet" href="assets/css/contacto/contacto-input.css">
     <link rel="stylesheet" href="assets/css/contacto/contacto-btn.css">
     <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/responsivo.css">
 </head>
 <body class="body">
     <div class="container">
@@ -112,6 +114,11 @@
                     </li>
                 </ul>
             </nav>
+            <div class="hamburguesa-container">
+                <div class="hamburguesa"></div>
+                <div class="hamburguesa"></div>
+                <div class="hamburguesa"></div>
+            </div>
         </header>
         <main>
             <section id="presentacion" class="presentacion">
@@ -425,7 +432,7 @@
                     </li>
                 </ul>
             </section>
-            <!-- <section id="contacto" class="contacto">
+            <section id="contacto" class="contacto">
                 <div class="contacto__icon"></div>
                 <h3 class="contacto__titulo">Contacto</h3>
                 <p class="contacto__parrafo">Llená el formulario, te respondo en breve.</p>
@@ -440,7 +447,7 @@
                     <textarea class="contacto__input--text-area" name="" id="mensaje" cols="30" rows="10" required></textarea>
                     <button class="contacto__btn" type="submit">Enviar</button>
                 </form>
-            </section> -->
+            </section>
         </main>
         <footer class="footer">
             <ul class="footer__lista">
@@ -465,4 +472,5 @@
         </footer>
     </div>
 </body>
+<script src="./assets/script/validacion-formulario.js"></script>
 </html>

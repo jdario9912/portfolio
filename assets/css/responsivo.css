@@ -9,8 +9,42 @@
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    
+@media only screen and (max-width: 768px) {
+    .sobre-mi,
+    .skills,
+    .experiencia,
+    .formacion,
+    .contacto{
+        padding: 30px 2.375rem 80px 2.375rem;
+    }
+
+    .sobre-mi__parrafo{
+        font-family: var(--sans-pro);
+        font-size: 1.4rem;
+    }
+
+    .sobre-mi__info-intereses{
+        gap: 2rem;
+        margin-top: 40px;
+    }
+
+    .sobre-mi__info-personal{
+        align-items: center;
+        width: 100%;
+    }
+
+    .sobre-mi__intereses{
+        align-items: center;
+        width: 100%;
+    }
+
+    .skills__box-hard-soft{
+        gap: 3rem;
+    }
+
+    .skills__hard-soft{
+        width: 100%;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
