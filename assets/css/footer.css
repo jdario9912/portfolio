@@ -1,20 +1,22 @@
 .footer{
-    background: #000000;
+    background: var(--background-footer);
     border-radius: 0 0 5px 5px;
     display: flex;
+    gap: 1rem;
     padding: 40px 70px;
-    position: relative;
-    text-align: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .footer__lista{
     display: flex;
-    margin: 0 auto 0 0;
-    position: relative;
+    gap: .55rem;
 }
 
+.footer__item{}
+
 .footer__nombre{
-    color: #3dbfb3;
+    color: var(--color-distintivo);
 }
 
 .footer__fecha{

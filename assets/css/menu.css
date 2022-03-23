@@ -3,7 +3,8 @@
     background: var(--background-gris-oscuro);
     border-radius: 5px 5px 0 0;
     display: flex;
-    height: 55px;
+    flex-wrap: wrap;
+    height: 3.438rem;
     justify-content: space-between;
     padding: 15px 3rem;
 }

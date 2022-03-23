@@ -1,4 +1,6 @@
 .menu__nombre{
-    font-size: 1.5rem;
     color: var(--color-distintivo);
+    display: flex;
+    font-size: 1.5rem;
+    width: 20%;
 }

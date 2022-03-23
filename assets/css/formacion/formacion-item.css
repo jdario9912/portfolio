@@ -1,3 +1,8 @@
 .formacion__item{
-    padding: 10px;
+    background: var(--background-gris-oscuro);
+    box-shadow: var(--shadow-container);
+    display: flex;
+    min-width: 9.5rem;
+    padding: 1rem;
+    width: 27%;
 }

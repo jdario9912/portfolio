@@ -1,3 +1,4 @@
 .formacion__lista-titulo{
-    color: #727070;
+    color: var(--colot-titulo-experiencia);
+    text-transform: capitalize;
 }

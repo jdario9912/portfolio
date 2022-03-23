@@ -39,20 +39,23 @@ a{
 
 .sobre-mi,
 .skills,
-.experiencia{
+.experiencia,
+.formacion{
     padding: 30px 4.375rem 80px 4.375rem;
 }
 
 .sobre-mi__icon-info,
 .skills__icon,
-.experiencia__icon{
+.experiencia__icon,
+.formacion__icon{
     height: 2.5rem;
     width: 2.5rem;
 }
 
 .sobre-mi__titulo,
 .skills__titulo,
-.experiencia__titulo{
+.experiencia__titulo,
+.formacion__titulo{
     font-size: 1.875rem;
     line-height: 3.125rem;
     text-transform: lowercase;

@@ -3,6 +3,7 @@
     box-shadow: var(--shadow-container);
     display: flex;
     flex-direction: column;
+    min-width: 15.625rem;
     padding: 1rem;
     width: 44%;
 }

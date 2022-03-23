@@ -1,6 +1,7 @@
 .skills__box-hard-soft{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 1.875rem;
     justify-content: space-between;
     margin-top: 30px;

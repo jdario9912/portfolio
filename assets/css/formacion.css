@@ -1,5 +1,6 @@
 .formacion{
-    background: #303030;
-    padding: 30px 70px 100px 70px;
-    position: relative;
+    align-items: center;
+    background: var(--background-gris-claro);
+    display: flex;
+    flex-direction: column;
 }
