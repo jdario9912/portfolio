@@ -1,16 +1,22 @@
 .hamburguesa-container{
-    height: 2.625rem;
-    width: 2.625rem;
+    align-items: center;
+    background: transparent;
+    border: none;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    border-radius: 4px;
-    justify-content: center;
     gap: 9px;
+    height: 2.625rem;
+    justify-content: center;
+    width: 2.625rem;
+}
+
+.hamburguesa-container:active{
+    border: .5px solid var(--color-fuente);
+    border-radius: 3px;
 }
 
 .hamburguesa{
+    background: var(--color-fuente);
     height: 4px;
     width: 80%;
-    background: var(--color-fuente);
 }
