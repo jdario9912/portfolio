@@ -1,8 +1,7 @@
 .hamburguesa-container{
     height: 2.625rem;
     width: 2.625rem;
-    border: 1px solid var(--color-fuente);
-    display: none;
+    display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 4px;
@@ -11,8 +10,7 @@
 }
 
 .hamburguesa{
-    height: 2px;
+    height: 4px;
     width: 80%;
-    /* border: 1px solid var(--color-fuente); */
     background: var(--color-fuente);
 }
