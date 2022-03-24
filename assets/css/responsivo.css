@@ -98,6 +98,7 @@
     .sobre-mi__parrafo{
         font-family: var(--sans-pro);
         font-size: 1.4rem;
+        text-align: justify;
     }
 
     .sobre-mi__info-intereses{
