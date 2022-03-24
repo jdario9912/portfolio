@@ -21,6 +21,7 @@
     }
 
     .box__contenido{
+        background: transparent;
         border-radius: initial;
     }
 
