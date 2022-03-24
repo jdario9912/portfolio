@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="assets/css/normalice.css">
     <link rel="stylesheet" href="assets/css/container.css">
     <link rel="stylesheet" href="assets/css/menu.css">
-    <link rel="stylesheet" href="assets/css/menu/menu-item.css">
+    <link rel="stylesheet" href="assets/css/menu/menu-btn-ocultar-nav.css">
     <link rel="stylesheet" href="assets/css/menu/menu-link.css">
     <link rel="stylesheet" href="assets/css/menu/menu-lista.css">
     <link rel="stylesheet" href="assets/css/menu/menu-hamburguesa.css">
@@ -91,6 +91,7 @@
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/responsivo.css">
     <link rel="stylesheet" href="assets/css/desplegar-nav.css">
+    <link rel="stylesheet" href="assets/css/ocultar-nav.css">
 </head>
 <body class="body">
     <div class="container">
@@ -113,9 +114,12 @@
                     <li id="menu__item" class="menu__item">
                         <a id="menu__link" href="#contacto" class="menu__link">Contácto</a>
                     </li>
+                    <li>
+                        <button id="btn-ocultar-nav" class="btn-ocultar-nav">ocultar <em class="flecha-ocultar">↦</em></button>
+                    </li>
                 </ul>
             </nav>
-            <button class="hamburguesa-container">
+            <button id="hamburguesa" class="hamburguesa-container">
                 <div class="hamburguesa"></div>
                 <div class="hamburguesa"></div>
                 <div class="hamburguesa"></div>
@@ -474,6 +478,8 @@
         </footer>
     </div>
 </body>
+<script src="./assets/script/funciones.js"></script>
 <script src="./assets/script/validacion-formulario.js"></script>
 <script src="./assets/script/desplegar-nav.js"></script>
+<script src="./assets/script/ocultar-nav.js"></script>
 </html>

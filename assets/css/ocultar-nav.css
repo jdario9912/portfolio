@@ -1,0 +1,12 @@
+.btn-ocultar-nav:active{
+    color: var(--color-fuente);
+}
+
+.flecha-ocultar{
+    color: inherit;
+    font-size: 1.6rem;
+}
+
+.ocultar-elemento{
+    display: none;
+}
