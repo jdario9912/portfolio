@@ -1,0 +1,27 @@
+.desplegar-nav{
+    background: #000;
+    display: inline;
+    position: absolute;
+    height: auto;
+    width: auto;
+    top: 0;
+    right: 0;
+    z-index: 30;
+}
+
+.lista-vertical{
+    flex-direction: column;
+}
+
+.item-total{
+    border-bottom: .9px solid var(--color-distintivo);
+    text-align: center;
+    /* padding: 1rem 1rem; */
+    width: 100%;
+}
+
+.link-rojo{
+    line-height: 1.7rem;
+    font-size: 1.5rem;
+    width: 100%;
+}
