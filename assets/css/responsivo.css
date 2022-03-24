@@ -10,6 +10,16 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
+    .container{
+        border-radius: none;
+        box-shadow: none;
+        margin: initial;
+        width: 100%;
+    }
+
+    .menu{
+        border-radius: initial;
+    }
     .sobre-mi,
     .skills,
     .experiencia,
@@ -44,6 +54,16 @@
 
     .skills__hard-soft{
         width: 100%;
+    }
+
+    .footer{
+        border-radius: initial;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__repositorio{
+        display: none;
     }
 }
 
