@@ -5,6 +5,10 @@
         align-items: center;
     }
 
+    .menu__nombre{
+        display: none;
+    }
+
     .menu__lista{
         flex-wrap: wrap;
         justify-content: center;
