@@ -1,7 +1,7 @@
 .contacto__btn{
-    background: #3dbfb3;
+    background: var(--color-distintivo);
     border: none;
-    color: #303030;
+    color: var(--background-gris-claro);
     line-height: 40px;
     font-size: 20px;
     margin-top: 20px;
@@ -12,10 +12,6 @@
 }
 
 .contacto__btn:active{
-    /* background: none; */
-    /* border: 1px solid #3dbfb3; */
     color: #303030;
-    /* font-weight: bold; */
     transform: scale(.98);
-    
 }

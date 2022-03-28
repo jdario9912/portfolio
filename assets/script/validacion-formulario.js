@@ -1,36 +1,34 @@
-const btnEnviar = document.querySelector('[data-enviar-btn');
-
-const validarFormulario = (event) => {
-    event.preventDefault();
-    // const nombreForm = document.querySelector('[data-nombre]');
-    // const nombre = nombreForm.value;
-    
-    // const emailForm = document.querySelector('[data-email');
-    // const email = emailForm.value;
-
-    // const asuntoForm = document.querySelector('[data-asunto');
-    // const asunto = asuntoForm.value;
-
-    // const mensajeForm = document.querySelector('[data-mensaje]');
-    // const mensaje = mensajeForm.value;
-
-    // if(validaTodosLosCampos(nombre, email, asunto, mensaje)){
-    //     console.log(`Todo ok el formulario`);
-    // }else{
-    //     console.log(`Hay problemas en el formulario`);
-    // }
-}
-
-btnEnviar.addEventListener('click', validarFormulario);
-
 const nombreForm = document.querySelector('[data-nombre]');
-nombreForm.addEventListener('input', function (){
-    const informacion = nombreForm.value;
-    if(informacion == ''){
-        console.log(nombreForm.value);
-        btnEnviar.setAttribute('disabled');
+const emailForm = document.querySelector('[data-email]');
+const asuntoForm = document.querySelector('[data-asunto]');
+const mensajeForm = document.querySelector('[data-mensaje]');
+
+const alertNombreContainer = document.querySelector('[data-alert-nombre-container]');
+const alertEmailContainer = document.querySelector('[data-alert-email-container]');
+const alertAsuntoContainer = document.querySelector('[data-alert-asunto-container]');
+const alertMensajeContainer = document.querySelector('[data-alert-mensaje-container]');
+
+nombreForm.value = '';
+emailForm.value = '';
+asuntoForm.value = '';
+mensajeForm.value = '';
+
+const nombreValidado = false;
+const emailValidado = false;
+const asuntoValidado = false;
+const mensajeValidado = false;
+
+nombreForm.addEventListener('input', function(){
+    let span
+    if (nombreForm.value == '') {
+        span = document.createElement('span');
+        span.textContent = '*este campo es obligatorio';
+        styleAlert(span);
+        alertNombreContainer.appendChild(span);
+        nombreValidado = false;
     }else{
-        console.log(nombreForm.value);
-        btnEnviar.removeAttribute('disabled');
-    }
-})
+        alertNombreContainer.removeChild(span);
+        nombreValidado = true;
+    }   
+    return nombreValidado
+});

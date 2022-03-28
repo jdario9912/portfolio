@@ -89,7 +89,7 @@
     <link rel="stylesheet" href="assets/css/contacto/contacto-btn.css">
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/responsivo.css">
-    <link rel="stylesheet" href="assets/css/invisible.css">
+    <link rel="stylesheet" href="assets/css/displayNone.css">
     <link rel="stylesheet" href="assets/css/alert-span.css">
 </head>
 <body class="body">
@@ -359,7 +359,6 @@
                         </div>
                     </li>                    
                 </ul>
-                <!-- <span>otras</span> -->
             </section>
             <section id="formacion" class="formacion">
                 <div class="formacion__icon"></div>
@@ -442,9 +441,8 @@
                         type="text" 
                         id="nombre" 
                         data-nombre
-                        placeholder="Nombre Apellido"
-                        required>
-                    <div data-alert-nombre-container><span class="alert-span">*Este campo es obligatorio</span></div>
+                        placeholder="Nombre Apellido">
+                    <div data-alert-nombre-container></div>
 
                     <label class="contacto__label" for="email">E-mail</label>
                     <input 
@@ -474,7 +472,13 @@
                     </textarea>
                     <div data-alert-mensaje-container></div>
 
-                    <button class="contacto__btn " type="submit" data-enviar-btn disabled>Enviar</button>
+                    <button 
+                        class="contacto__btn " 
+                        type="submit" 
+                        data-enviar-btn 
+                        disabled="true">
+                        Enviar
+                    </button>
                 </form>
             </section>
         </main>

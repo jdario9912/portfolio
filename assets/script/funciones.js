@@ -1,10 +1,10 @@
-function ocultarElemento(elemento) {
-    elemento.classList.add('ocultar-elemento');
+function displayNone(elemento) {
+    elemento.classList.add('displayNone');
 }
 
-function styleAlert(objeto) {
-    objeto.classList.add('alert-span');
-    return objeto;
+function styleAlert(elemento) {
+    elemento.classList.add('alert-span');
+    return elemento;
 }
 
 function validaTodosLosCampos(nombre, email, asunto, mensaje) {
