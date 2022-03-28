@@ -13,8 +13,6 @@
     gap: .55rem;
 }
 
-.footer__item{}
-
 .footer__nombre{
     color: var(--color-distintivo);
 }
