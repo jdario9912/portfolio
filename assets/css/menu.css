@@ -4,7 +4,7 @@
     border-radius: 5px 5px 0 0;
     display: flex;
     flex-wrap: wrap;
-    height: 3.438rem;
+    /* height: 3.438rem; */
     justify-content: space-between;
     padding: 0.938rem 3rem;
 }

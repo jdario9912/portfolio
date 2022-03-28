@@ -1,9 +1,11 @@
 .contacto__input{
-    height: 1.875rem;
     color: #000;
+    height: 1.875rem;
+    outline: none;
 }
 
 .contacto__input--text-area{
-    height: 12.5rem;
     color: #000;
+    height: 12.5rem;
+    outline: none;
 }

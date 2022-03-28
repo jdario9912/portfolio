@@ -1,0 +1,5 @@
+.alert-span{
+    font-family: var(--sans-pro);
+    font-size: .9rem;
+    color: red;
+}

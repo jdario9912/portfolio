@@ -90,8 +90,8 @@
     <link rel="stylesheet" href="assets/css/contacto/contacto-btn.css">
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/responsivo.css">
-    <link rel="stylesheet" href="assets/css/desplegar-nav.css">
-    <link rel="stylesheet" href="assets/css/ocultar-nav.css">
+    <link rel="stylesheet" href="assets/css/invisible.css">
+    <link rel="stylesheet" href="assets/css/alert-span.css">
 </head>
 <body class="body">
     <div class="container">
@@ -119,11 +119,11 @@
                     </li>
                 </ul>
             </nav>
-            <button id="hamburguesa" class="hamburguesa-container">
+            <!-- <button id="hamburguesa" class="hamburguesa-container">
                 <div class="hamburguesa"></div>
                 <div class="hamburguesa"></div>
                 <div class="hamburguesa"></div>
-            </button>
+            </button> -->
         </header>
         <main>
             <section id="presentacion" class="presentacion">
@@ -446,14 +446,44 @@
                 <p class="contacto__parrafo">Llená el formulario, te respondo en breve.</p>
                 <form class="contacto__formulario">
                     <label class="contacto__label" for="nombre">Nombre</label>
-                    <input class="contacto__input" type="text" id="nombre" required>
+                    <input 
+                        class="contacto__input" 
+                        type="text" 
+                        id="nombre" 
+                        data-nombre
+                        placeholder="Nombre Apellido"
+                        required>
+                    <div data-alert-nombre-container><span class="alert-span">*Este campo es obligatorio</span></div>
+
                     <label class="contacto__label" for="email">E-mail</label>
-                    <input class="contacto__input" type="email" id="email" required>
+                    <input 
+                        class="contacto__input" 
+                        type="email" 
+                        id="email" 
+                        data-email
+                        placeholder="usuario@mail.com">
+                    <div data-alert-email-container></div>
+
                     <label class="contacto__label" for="asunto">Asunto</label>
-                    <input class="contacto__input" type="text" id="asunto" required>
+                    <input 
+                        class="contacto__input" 
+                        type="text" 
+                        id="asunto" 
+                        data-asunto
+                        placeholder="Asunto">
+                    <div data-alert-asunto-container></div>
+
                     <label class="contacto__label" for="mensaje">Mensaje</label>
-                    <textarea class="contacto__input--text-area" name="" id="mensaje" cols="30" rows="10" required></textarea>
-                    <button class="contacto__btn" type="submit">Enviar</button>
+                    <textarea 
+                        class="contacto__input--text-area" 
+                        name="" id="mensaje" 
+                        cols="30" 
+                        rows="10" 
+                        data-mensaje>
+                    </textarea>
+                    <div data-alert-mensaje-container></div>
+
+                    <button class="contacto__btn " type="submit" data-enviar-btn disabled>Enviar</button>
                 </form>
             </section>
         </main>
@@ -482,6 +512,4 @@
 </body>
 <script src="./assets/script/funciones.js"></script>
 <script src="./assets/script/validacion-formulario.js"></script>
-<script src="./assets/script/desplegar-nav.js"></script>
-<script src="./assets/script/ocultar-nav.js"></script>
 </html>

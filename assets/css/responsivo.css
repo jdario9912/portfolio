@@ -1,11 +1,13 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .menu__nav{
-        display: none;
+    .menu{
+        flex-direction: column;
+        align-items: center;
     }
 
-    .hamburguesa{
-        display: flex;
+    .menu__lista{
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .presentacion{
@@ -17,16 +19,22 @@
     }
 
     .box__contorno-avatar{
-        top: 100px
+        top: 150px
     }
 
     .box__contenido{
         background: transparent;
         border-radius: initial;
+        margin-top: 0;
     }
 
     .sobre-mi{
         padding: 30px 1.3rem 30px 1.3rem;
+    }
+
+    .experiencia{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
     }
 
     .experiencia__item{
@@ -56,15 +64,6 @@
 
     .footer__repositorio{
         display: flex;
-    }
-}
-
-/* Small devices (portrait tablets and large phones, 601px and up) */
-@media only screen and (min-width: 601px) {
-    
-    .hamburguesa, .hamburguesa-container{
-        display: none;
-        width: 0px;
     }
 }
 
