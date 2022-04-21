@@ -1,5 +1,6 @@
 .sobre-mi__lista{
     display: flex;
+    gap: 5px;
     flex-wrap: wrap;
     margin-top: 10px;
 }
