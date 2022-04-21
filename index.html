@@ -435,39 +435,59 @@
                 <h3 class="contacto__titulo">Contacto</h3>
                 <p class="contacto__parrafo">Llená el formulario, te respondo en breve.</p>
                 <form class="contacto__formulario">
+
                     <label class="contacto__label" for="nombre">Nombre</label>
                     <input 
                         class="contacto__input" 
                         type="text" 
                         id="nombre" 
                         placeholder="Nombre Apellido"
-                        data-nombre>
-                    <div data-alert-nombre-container></div>
+                        data-nombre
+                        required>
+                    <div data-alert-nombre-container>
+                        <span class="displayNone" data-alert-nombre>*este campo es obligatorio</span>
+                    </div>
+
                     <label class="contacto__label" for="email">E-mail</label>
                     <input 
                         class="contacto__input" 
                         type="email" 
                         id="email" 
                         placeholder="usuario@mail.com"
-                        data-email>
-                        <div data-alert-email-container></div>
+                        data-email
+                        required>
+                    <div data-alert-email-container>
+                        <span class="displayNone" data-alert-email>*este campo es obligatorio</span>
+                        <span class="displayNone" data-alert-email-incorrecto>*email incorrecto. Debe tener un @ y un punto (.)</span>
+                    </div>
+
                     <label class="contacto__label" for="asunto">Asunto</label>
                     <input 
                         class="contacto__input" 
                         type="text" 
                         id="asunto" 
                         placeholder="Asunto"
-                        data-asunto>
-                    <div data-alert-asunto-container></div>
+                        data-asunto
+                        required>
+                    <div data-alert-asunto-container>
+                        <span class="displayNone" data-alert-asunto>*este campo es obligatorio</span>
+                    </div>
+
                     <label class="contacto__label" for="mensaje">Mensaje</label>
                     <textarea 
                         class="contacto__input--text-area" 
                         name="" id="mensaje" 
                         cols="30" 
                         rows="10" 
-                        data-mensaje>
+                        minlength="0"
+                        maxlength="300"
+                        data-mensaje
+                        required>
                     </textarea>
-                    <div data-alert-mensaje-container></div>
+                    <div data-alert-mensaje-container>
+                        <span class="displayNone" data-alert-mensaje>*este campo es obligatorio</span>
+                    </div>
+
                     <button 
                         class="contacto__btn " 
                         type="submit"

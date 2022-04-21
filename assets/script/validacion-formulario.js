@@ -3,10 +3,16 @@ const emailInput = document.querySelector('[data-email]');
 const asuntoInput = document.querySelector('[data-asunto]');
 const mensajeInput = document.querySelector('[data-mensaje]');
 
-const alertNombreContainer = document.querySelector('[data-alert-nombre-container]');
-const alertEmailContainer = document.querySelector('[data-alert-email-container]');
-const alertAsuntoContainer = document.querySelector('[data-alert-asunto-container]');
-const alertMensajeContainer = document.querySelector('[data-alert-mensaje-container]');
+// const alertNombreContainer = document.querySelector('[data-alert-nombre-container]');
+// const alertEmailContainer = document.querySelector('[data-alert-email-container]');
+// const alertAsuntoContainer = document.querySelector('[data-alert-asunto-container]');
+// const alertMensajeContainer = document.querySelector('[data-alert-mensaje-container]');
+
+const alertNombre = document.querySelector('[data-alert-nombre]');
+const alertEmail = document.querySelector('[data-alert-email]');
+const alertEmailIncorrecto = document.querySelector('[data-alert-email-incorrecto]');
+const alertAsunto = document.querySelector('[data-alert-asunto]');
+const alertMensaje = document.querySelector('[data-alert-mensaje]');
 
 nombreInput.value = '';
 emailInput.value = '';
@@ -18,27 +24,27 @@ mensajeInput.value = '';
 // const asuntoValidado = false;
 // const mensajeValidado = false;
 
+
+
 nombreInput.addEventListener('blur', (evento) => {
-    let alerta;
-    nombre = evento.target.value;
-    if (nombre == '') {
-        alerta = document.createElement('span');
-        alerta.textContent = '*este campo es obligatorio';
-        alertNombreContainer.appendChild(alerta);
-    }else{
-        alertNombreContainer.removeChild(alerta);
-        console.log(`el nombre del usuario es ${nombre}`);
-    }
+    let nombre = evento.target.value;
+    muestraOcultaAlerta(nombre, alertNombre);
 });
 
-emailInput.addEventListener('blur', () =>{
-    console.log('Campo email');
+// ME FALTA TERMINAR DE VALIDAR EL INPUT DE EMAIL
+emailInput.addEventListener('blur', (evento) =>{
+    let email = evento.target.value;
+    // muestraOcultaAlerta(email, alertEmail);
+    mailIncorrecto(email, alertEmailIncorrecto);
+    console.log(alertEmailIncorrecto.textContent);
 });
 
-asuntoInput.addEventListener('blur', () =>{
-    console.log('Campo asunto');
+asuntoInput.addEventListener('blur', (evento) =>{
+    let asunto = evento.target.value;
+    muestraOcultaAlerta(asunto, alertAsunto);
 });
 
-mensajeInput.addEventListener('blur', () =>{
-    console.log('Campo mensaje');
+mensajeInput.addEventListener('blur', (evento) =>{
+    let mensaje = evento.target.value;
+    muestraOcultaAlerta(mensaje, alertMensaje);
 });

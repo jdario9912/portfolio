@@ -1,6 +1,7 @@
 .sobre-mi__info-personal{
     display: flex;
     flex-direction: column;
+    margin-top: 30px;
     min-width: 20.5rem;
     width: 50%;
 }
